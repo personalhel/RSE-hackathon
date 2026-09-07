@@ -1,1 +1,1 @@
-Sitemap: https://personalhel.github.io/hackathon-website/sitemap.xml
+Sitemap: https://personalhel.github.io/RSE-hackathon/sitemap.xml
