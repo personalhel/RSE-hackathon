@@ -8,8 +8,8 @@ repo for our website for the rse hackathon 2026
 - funds processing
 
 ## TODO for helene
-- [ ] event handler
-- [ ] quadro setup
+- [x] event handler
+- [x] quadro setup
 - [ ] find out what content we should add
 - [ ] website prototype
 - [ ] get feedback from fabi and julian on prototype

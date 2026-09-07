@@ -1,0 +1,14 @@
+project:
+  type: website
+  render:
+    - index.qmd
+
+website:
+  title: "RSE Hackathon 2026"
+
+format:
+  html:
+    theme: custom.scss
+    page-layout: full
+    toc: false
+    title-block-banner: false

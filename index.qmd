@@ -1,0 +1,43 @@
+---
+pagetitle: "RSE Hackathon 2026"
+---
+
+::: {.hero}
+[Glasgow · 27–28 November 2026]{.eyebrow}
+
+# RSE Hackathon 2026
+
+Two days of building research software enginnering tools in **Glasgow**.\
+
+
+[Register on Eventbrite](https://www.eventbrite.com/e/REPLACE-WITH-YOUR-EVENT-LINK){.cta target="_blank"}
+:::
+
+<button id="theme-toggle" class="theme-toggle" aria-label="Toggle light and dark mode">☀ Light mode</button>
+<script>
+(function () {
+  var root = document.documentElement;
+  var btn = document.getElementById('theme-toggle');
+  var stored = localStorage.getItem('theme');
+  function setLight() {
+    root.setAttribute('data-theme', 'light');
+    btn.textContent = '● Dark mode';
+  }
+  function setDark() {
+    root.removeAttribute('data-theme');
+    btn.textContent = '☀ Light mode';
+  }
+  if (stored === 'light') setLight();
+  btn.addEventListener('click', function () {
+    var isLight = root.getAttribute('data-theme') === 'light';
+    if (isLight) {
+      setDark();
+      localStorage.setItem('theme', 'dark');
+    } else {
+      setLight();
+      localStorage.setItem('theme', 'light');
+    }
+  });
+})();
+</script>
+

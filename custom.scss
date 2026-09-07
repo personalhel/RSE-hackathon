@@ -1,0 +1,94 @@
+/*-- scss:defaults --*/
+$body-bg: #000000;
+$body-color: #ffffff;
+$link-color: #ff6b8a;
+
+/*-- scss:rules --*/
+:root {
+  --bg: #000000;
+  --fg: #ffffff;
+  --accent: #ff6b8a;
+  --cta-fg: #000000;
+  color-scheme: dark;
+}
+
+[data-theme="light"] {
+  --bg: #ffffff;
+  --fg: #000000;
+  --accent: #ff6b8a;
+  --cta-fg: #ffffff;
+  color-scheme: light;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  background: var(--bg);
+  color: var(--fg);
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.quarto-title-block {
+  display: none;
+}
+
+main.content {
+  max-width: 640px;
+  padding: 2rem 1.5rem;
+}
+
+.theme-toggle {
+  position: fixed;
+  top: 1.25rem;
+  right: 1.25rem;
+  background: transparent;
+  border: 1px solid var(--fg);
+  color: var(--fg);
+  border-radius: 999px;
+  padding: 0.5rem 1rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.hero .eyebrow {
+  display: block;
+  color: var(--accent);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.hero h1 {
+  font-size: clamp(2.2rem, 6vw, 3.5rem);
+  line-height: 1.1;
+  margin: 0 0 0.75rem;
+}
+
+.hero p {
+  font-size: 1.15rem;
+  color: var(--fg);
+  opacity: 0.85;
+  margin: 0 0 2.5rem;
+}
+
+.hero .cta {
+  display: inline-block;
+  background: var(--accent);
+  color: var(--cta-fg) !important;
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-decoration: none;
+  padding: 0.9rem 2.2rem;
+  border-radius: 999px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.hero .cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(255, 107, 138, 0.35);
+}
