@@ -5,13 +5,13 @@ pagetitle: "RSE Hackathon 2026"
 ::: {.hero}
 
 ::: {.hero-top}
-[Glasgow · 27–28 November 2026]{.eyebrow}
+[Glasgow · 26–27 November 2026]{.eyebrow}
 
 # RSE Hackathon 2026
 
 Two days of building research software engineering tools in **Glasgow**.
 
-[Register on Eventbrite](https://www.eventbrite.com/e/REPLACE-WITH-YOUR-EVENT-LINK){.cta target="_blank"}
+[Register on Eventbrite](https://www.eventbrite.com/e/rse-hackathon-2026-at-university-of-glasgow-tickets-2000034040655){.cta target="_blank"}
 :::
 
 ::: {.hero-body}
@@ -25,7 +25,7 @@ We will use a thin-slice approach: rather than spending time building a complete
 we will connect just enough of each layer to show a user interacting with a real, working feature.
 
 ## Practical information
-The hackathon takes place at University of Glasgow, Scotland on the 27th and 28th of November, 2026.
+The hackathon takes place at [University of Glasgow, Scotland]{.highlight} on the 26th and 27th of November, 2026.
 
 _Day 1:_ lightning talks framing the challenges, team formation, and prototyping
 
@@ -37,6 +37,10 @@ Hybrid attendance for remote contributors is also possible.
 <div class="logo-box">
   <img src="uni-glasgow-logo.png" alt="University of Glasgow">
 </div>
+
+::: {.organizers}
+Organized by Bernhard Reinsberg (University of Glasgow), Julian Dehne (Society for Informatics–GI) and [de-RSE — Society for Research Software](https://de-rse.org/)
+:::
 
 :::
 

@@ -123,6 +123,11 @@ main.content {
   font-weight: 600;
 }
 
+.hero-body .highlight {
+  color: var(--accent);
+  font-weight: 600;
+}
+
 .hero .logo-box {
   display: block;
   width: fit-content;
@@ -136,4 +141,17 @@ main.content {
   display: block;
   height: 40px;
   width: auto;
+}
+
+.organizers {
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--fg);
+  opacity: 0.6;
+  margin-top: 1.5rem;
+}
+
+.organizers a {
+  color: inherit;
+  text-decoration: underline;
 }
