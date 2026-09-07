@@ -21,7 +21,8 @@ gh-pages will automatically build and deploy when pushing to the repo.
 - [ ] update with further details like date and venue address
 - [x] rename title
 - [ ] domain move
-- [ ] page with everyone envolved (names, images, pronouns, email)
+- [x] page with everyone envolved (names, images, pronouns, email)
+- [ ] add missing images and possible other info on contact page
 - [ ] link to slack and matrix
 - [x] allow for protop.
 - [x] de-rse and gi logo 
