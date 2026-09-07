@@ -3,18 +3,41 @@ pagetitle: "RSE Hackathon 2026"
 ---
 
 ::: {.hero}
+
+::: {.hero-top}
 [Glasgow · 27–28 November 2026]{.eyebrow}
 
 # RSE Hackathon 2026
 
-Two days of building research software enginnering tools in **Glasgow**.\
-
+Two days of building research software engineering tools in **Glasgow**.
 
 [Register on Eventbrite](https://www.eventbrite.com/e/REPLACE-WITH-YOUR-EVENT-LINK){.cta target="_blank"}
+:::
+
+::: {.hero-body}
+Research Software Engineering (RSE) practice and training remain fragmented along disciplinary lines:
+each field reinvents tooling, conventions, and teaching material, so we will conduct an open hackathon to prototype discipline-overarching RSE frameworks
+— shared, reusable building blocks that work across the social sciences,
+life sciences, and the humanities rather than within a single silo.
+
+In two days, the team will produce an overall system design (such as a UML diagram) and a working end-to-end prototype.
+We will use a thin-slice approach: rather than spending time building a complete database or UI,
+we will connect just enough of each layer to show a user interacting with a real, working feature.
+
+## Practical information
+The hackathon takes place at University of Glasgow, Scotland on the 27th and 28th of November, 2026.
+
+_Day 1:_ lightning talks framing the challenges, team formation, and prototyping
+
+_Day 2:_ build a short showcase and a community roadmap for carrying winning prototypes forward.
+
+Hybrid attendance for remote contributors is also possible.
+:::
 
 <div class="logo-box">
   <img src="uni-glasgow-logo.png" alt="University of Glasgow">
 </div>
+
 :::
 
 <button id="theme-toggle" class="theme-toggle" aria-label="Toggle light and dark mode">☀ Light mode</button>
