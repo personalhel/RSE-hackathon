@@ -6,3 +6,11 @@ repo for our website for the rse hackathon 2026
 - local contact
 - date
 - funds processing
+
+## TODO for helene
+- [ ] event handler
+- [ ] quadro setup
+- [ ] find out what content we should add
+- [ ] website prototype
+- [ ] get feedback from fabi and julian on prototype
+- [ ] go live
