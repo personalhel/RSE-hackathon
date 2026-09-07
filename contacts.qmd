@@ -7,32 +7,61 @@ pagetitle: "Contacts · RSE Hackathon 2026"
 ::: {.hero-top}
 [← Back to RSE Hackathon 2026](index.html){.back-link}
 
-# Organizers & Contacts
+# Organizers
 :::
 
 ::: {.hero-body}
-## University of Glasgow
+## Charité
 
 ::: {.contact-card}
-**Bernhard Reinsberg**\
-Role / Title\
-[name@glasgow.ac.uk](mailto:name@glasgow.ac.uk)
+**Magnus Hagdorn** [he/him]{.pronouns}\
+Program Chair\
+[magnus.hagdorn@charite.de](mailto:magnus.hagdorn@charite.de)
 :::
 
 ## Gesellschaft für Informatik
 
-::: {.contact-card}
-**Julian Dehne**\
-Role / Title\
-[name@gi.de](mailto:name@gi.de)
+::: {.contact-card .has-photo}
+<img class="contact-photo" src="julian-photo.jpg" alt="Julian Dehne">
+
+**Julian Dehne** [he/him]{.pronouns}\
+Event Organizer, Program Chair\
+[julian.dehne@gi.de](mailto:julian.dehne@gi.de)\
+[juliandehne.github.io](https://juliandehne.github.io)\
+[GitHub](https://github.com/juliandehne)
 :::
 
-## de-RSE — Society for Research Software
+::: {.contact-card}
+**Fabian Lochner** [he/him]{.pronouns}\
+Outreach and Marketing Officer, Travel Organization\
+[fabian.lochner@gi.de](mailto:fabian.lochner@gi.de)\
+[GitHub](https://github.com/FabiLochner)
+:::
+
+## University of Copenhagen
+
+::: {.contact-card .has-photo}
+<img class="contact-photo" src="helene-photo.jpg" alt="Helene S. Holst">
+
+**Helene S. Holst** [she/her]{.pronouns}\
+Technical Chair, Outreach and Marketing Officer\
+[hel@personalhel.com](mailto:hel@personalhel.com)\
+[personalhel.com](https://personalhel.com)\
+[Codeberg](https://codeberg.org) · [GitHub](https://github.com/personalhel)
+:::
+
+## University of Glasgow
 
 ::: {.contact-card}
-**Name**\
-Role / Title\
-[name@de-rse.org](mailto:name@de-rse.org)
+**Bernhard Reinsberg** [he/him]{.pronouns}\
+Event Organizer\
+[Bernhard.Reinsberg@glasgow.ac.uk](mailto:Bernhard.Reinsberg@glasgow.ac.uk)
+:::
+
+::: {.contact-card}
+**Jessica Brackenridge** [she/her]{.pronouns}\
+Event Organizer\
+[Jessica.Brackenridge@glasgow.ac.uk](mailto:Jessica.Brackenridge@glasgow.ac.uk)
 :::
 
 :::

@@ -43,7 +43,7 @@ Hybrid attendance for remote contributors is also possible.
 :::
 
 ::: {.organizers}
-[Contacts →](contacts.html)
+[People involved →](contacts.html){.people-link}
 :::
 
 :::

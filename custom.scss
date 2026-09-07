@@ -184,6 +184,11 @@ main.content {
   text-decoration: underline;
 }
 
+.organizers a.people-link {
+  color: var(--accent);
+  font-weight: 600;
+}
+
 .back-link {
   display: inline-block;
   color: var(--accent);
@@ -215,8 +220,40 @@ main.content {
   margin-bottom: 0;
 }
 
+.contact-card.has-photo {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.contact-card.has-photo p {
+  margin: 0;
+}
+
+.contact-card.has-photo p:first-child {
+  flex-shrink: 0;
+}
+
+.contact-card.has-photo p:last-child {
+  flex: 1;
+}
+
+.contact-photo {
+  display: block;
+  width: 96px;
+  height: 96px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
 .contact-card strong {
   font-size: 1.1rem;
+}
+
+.contact-card .pronouns {
+  font-size: 0.85rem;
+  font-weight: 400;
+  opacity: 0.6;
 }
 
 .contact-card a {
