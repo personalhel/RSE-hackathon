@@ -9,6 +9,7 @@ $link-color: #ff6b8a;
   --fg: #ffffff;
   --accent: #ff6b8a;
   --cta-fg: #000000;
+  --logo-bg: #ff6b8a;
   color-scheme: dark;
 }
 
@@ -17,6 +18,7 @@ $link-color: #ff6b8a;
   --fg: #000000;
   --accent: #ff6b8a;
   --cta-fg: #ffffff;
+  --logo-bg: #ffffff;
   color-scheme: light;
 }
 
@@ -91,4 +93,18 @@ main.content {
 .hero .cta:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 24px rgba(255, 107, 138, 0.35);
+}
+
+.hero .logo-box {
+  display: inline-block;
+  background: var(--logo-bg);
+  border-radius: 12px;
+  padding: 0.6rem 1.25rem;
+  margin-top: 3rem;
+}
+
+.hero .logo-box img {
+  display: block;
+  height: 40px;
+  width: auto;
 }

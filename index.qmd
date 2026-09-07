@@ -11,6 +11,10 @@ Two days of building research software enginnering tools in **Glasgow**.\
 
 
 [Register on Eventbrite](https://www.eventbrite.com/e/REPLACE-WITH-YOUR-EVENT-LINK){.cta target="_blank"}
+
+<div class="logo-box">
+  <img src="uni-glasgow-logo.png" alt="University of Glasgow">
+</div>
 :::
 
 <button id="theme-toggle" class="theme-toggle" aria-label="Toggle light and dark mode">☀ Light mode</button>
