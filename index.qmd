@@ -36,12 +36,14 @@ _Day 2:_ build a short showcase and a community roadmap for carrying winning pro
 Hybrid attendance for remote contributors is also possible.
 :::
 
-<div class="logo-box">
-  <img src="uni-glasgow-logo.png" alt="University of Glasgow">
-</div>
+::: {.logo-row}
+[![University of Glasgow](uni-glasgow-logo.png)](https://www.gla.ac.uk){.logo-box} [![Gesellschaft für Informatik](GI_R.png)](https://gi.de/en/){.logo-box}
+
+<a class="logo-box logo-box-large" href="https://de-rse.org/en/" target="_blank" rel="noopener"><img src="de-RSE-logo-text-colour.svg" alt="de-RSE — Society for Research Software"></a>
+:::
 
 ::: {.organizers}
-Organized by Bernhard Reinsberg (University of Glasgow), Julian Dehne (Society for Informatics–GI) and [de-RSE — Society for Research Software](https://de-rse.org/)
+Organized by Bernhard Reinsberg (University of Glasgow), Julian Dehne (Society for Informatics–GI) and de-RSE — Society for Research Software
 :::
 
 :::

@@ -128,19 +128,47 @@ main.content {
   font-weight: 600;
 }
 
-.hero .logo-box {
-  display: block;
-  width: fit-content;
+.logo-row {
+  margin: 3rem 0 0;
+  text-align: center;
+}
+
+.logo-row p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 0 0 1rem;
+}
+
+.logo-row p:last-child {
+  margin-bottom: 0;
+}
+
+.logo-box {
+  display: inline-flex;
+  align-items: center;
   background: var(--logo-bg);
   border-radius: 12px;
   padding: 0.6rem 1.25rem;
-  margin: 3rem auto 0;
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
-.hero .logo-box img {
+.logo-box:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.logo-box img {
   display: block;
   height: 40px;
   width: auto;
+}
+
+.logo-box-large img {
+  height: 48px;
 }
 
 .organizers {
