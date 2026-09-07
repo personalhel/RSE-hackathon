@@ -2,14 +2,14 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "RSE Hackathon 2026",
+    "title": "RSE-hackathon",
     "section": "",
-    "text": "Glasgow · 26–27 November 2026\n\n\nTwo days of building research software engineering tools in Glasgow.\nRegister on Eventbrite\n\n\n\nResearch Software Engineering (RSE) practice and training remain fragmented along disciplinary lines: each field reinvents tooling, conventions, and teaching material, so we will conduct an open hackathon to prototype discipline-overarching RSE frameworks — shared, reusable building blocks that work across the social sciences, life sciences, and the humanities rather than within a single silo.\nIn two days, the team will produce an overall system design (such as a UML diagram) and a working end-to-end prototype. We will use a thin-slice approach: rather than spending time building a complete database or UI, we will connect just enough of each layer to show a user interacting with a real, working feature.\n\n\nThe hackathon takes place at University of Glasgow, Scotland on the 26th and 27th of November, 2026.\nDay 1: lightning talks framing the challenges, team formation, and prototyping\nDay 2: build a short showcase and a community roadmap for carrying winning prototypes forward.\nHybrid attendance for remote contributors is also possible.\n\n\n\n\n\n\nOrganized by Bernhard Reinsberg (University of Glasgow), Julian Dehne (Society for Informatics–GI) and de-RSE — Society for Research Software"
+    "text": "Glasgow · 26–27 November 2026\n\n\nTwo days of building research software engineering tools in Glasgow.\nRegister on Eventbrite\n\n\n\nResearch Software Engineering (RSE) practice and training remain fragmented along disciplinary lines: each field reinvents tooling, conventions, and teaching material, so we will conduct an open hackathon to prototype discipline-overarching RSE frameworks — shared, reusable building blocks that work across the social sciences, life sciences, and the humanities rather than within a single silo.\nIn two days, the team will produce an overall system design (such as a UML diagram) and a working end-to-end prototype. We will use a thin-slice approach: rather than spending time building a complete database or UI, we will connect just enough of each layer to show a user interacting with a real, working feature.\nOther ideas for projects and prototyping are of course more than welcome!\n\n\nThe hackathon takes place at University of Glasgow, Scotland on the 26th and 27th of November, 2026.\nDay 1: lightning talks framing the challenges, team formation, and prototyping\nDay 2: build a short showcase and a community roadmap for carrying winning prototypes forward.\nHybrid attendance for remote contributors is also possible.\n\n\n\n\n\n\nOrganized by Bernhard Reinsberg (University of Glasgow), Julian Dehne (Society for Informatics–GI) and de-RSE — Society for Research Software"
   },
   {
     "objectID": "index.html#practical-information",
     "href": "index.html#practical-information",
-    "title": "RSE Hackathon 2026",
+    "title": "RSE-hackathon",
     "section": "",
     "text": "The hackathon takes place at University of Glasgow, Scotland on the 26th and 27th of November, 2026.\nDay 1: lightning talks framing the challenges, team formation, and prototyping\nDay 2: build a short showcase and a community roadmap for carrying winning prototypes forward.\nHybrid attendance for remote contributors is also possible."
   }
