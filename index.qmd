@@ -43,7 +43,7 @@ Hybrid attendance for remote contributors is also possible.
 :::
 
 ::: {.organizers}
-Organized by Bernhard Reinsberg (University of Glasgow), Julian Dehne (Society for Informatics–GI) and de-RSE — Society for Research Software
+[Contacts →](contacts.html)
 :::
 
 :::

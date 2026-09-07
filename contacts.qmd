@@ -1,0 +1,68 @@
+---
+pagetitle: "Contacts · RSE Hackathon 2026"
+---
+
+::: {.hero}
+
+::: {.hero-top}
+[← Back to RSE Hackathon 2026](index.html){.back-link}
+
+# Organizers & Contacts
+:::
+
+::: {.hero-body}
+## University of Glasgow
+
+::: {.contact-card}
+**Bernhard Reinsberg**\
+Role / Title\
+[name@glasgow.ac.uk](mailto:name@glasgow.ac.uk)
+:::
+
+## Gesellschaft für Informatik
+
+::: {.contact-card}
+**Julian Dehne**\
+Role / Title\
+[name@gi.de](mailto:name@gi.de)
+:::
+
+## de-RSE — Society for Research Software
+
+::: {.contact-card}
+**Name**\
+Role / Title\
+[name@de-rse.org](mailto:name@de-rse.org)
+:::
+
+:::
+
+:::
+
+<button id="theme-toggle" class="theme-toggle" aria-label="Toggle light and dark mode">☀ Light mode</button>
+<script>
+(function () {
+  var root = document.documentElement;
+  var btn = document.getElementById('theme-toggle');
+  var stored = localStorage.getItem('theme');
+  function setLight() {
+    root.setAttribute('data-theme', 'light');
+    btn.textContent = '● Dark mode';
+  }
+  function setDark() {
+    root.removeAttribute('data-theme');
+    btn.textContent = '☀ Light mode';
+  }
+  if (stored === 'light') setLight();
+  btn.addEventListener('click', function () {
+    var isLight = root.getAttribute('data-theme') === 'light';
+    if (isLight) {
+      setDark();
+      localStorage.setItem('theme', 'dark');
+    } else {
+      setLight();
+      localStorage.setItem('theme', 'light');
+    }
+  });
+})();
+</script>
