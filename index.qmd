@@ -36,6 +36,8 @@ _Day 2:_ build a short showcase and a community roadmap for carrying winning pro
 Hybrid attendance for remote contributors is also possible.
 :::
 
+The coolest module gets an award and stiped.
+
 ::: {.logo-row}
 [![University of Glasgow](uni-glasgow-logo.png)](https://www.gla.ac.uk){.logo-box} [![Gesellschaft für Informatik](GI_R.png)](https://gi.de/en/){.logo-box}
 
@@ -48,30 +50,41 @@ Hybrid attendance for remote contributors is also possible.
 
 :::
 
-<button id="theme-toggle" class="theme-toggle" aria-label="Toggle light and dark mode">● Dark mode</button>
+<button id="theme-toggle" class="theme-toggle" aria-label="Toggle light and dark mode"></button>
 <script>
 (function () {
   var root = document.documentElement;
   var btn = document.getElementById('theme-toggle');
   var stored = localStorage.getItem('theme-v2');
-  function setDark() {
+  var systemDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+  if (stored === 'dark') {
     root.setAttribute('data-theme', 'dark');
-    btn.textContent = '☀ Light mode';
+  } else if (stored === 'light') {
+    root.setAttribute('data-theme', 'light');
   }
-  function setLight() {
-    root.removeAttribute('data-theme');
-    btn.textContent = '● Dark mode';
+
+  function isDarkNow() {
+    var attr = root.getAttribute('data-theme');
+    if (attr === 'dark') return true;
+    if (attr === 'light') return false;
+    return systemDark;
   }
-  if (stored === 'dark') setDark();
+
+  function updateLabel() {
+    btn.textContent = isDarkNow() ? '☀ Light mode' : '● Dark mode';
+  }
+
+  updateLabel();
   btn.addEventListener('click', function () {
-    var isDark = root.getAttribute('data-theme') === 'dark';
-    if (isDark) {
-      setLight();
+    if (isDarkNow()) {
+      root.setAttribute('data-theme', 'light');
       localStorage.setItem('theme-v2', 'light');
     } else {
-      setDark();
+      root.setAttribute('data-theme', 'dark');
       localStorage.setItem('theme-v2', 'dark');
     }
+    updateLabel();
   });
 })();
 </script>

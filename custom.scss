@@ -10,7 +10,18 @@ $link-color: #ff6b8a;
   --accent: #ff6b8a;
   --cta-fg: #ffffff;
   --logo-bg: #ffffff;
-  color-scheme: light;
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #000000;
+    --fg: #ffffff;
+    --accent: #ff6b8a;
+    --cta-fg: #000000;
+    --logo-bg: #ff6b8a;
+    color-scheme: dark;
+  }
 }
 
 [data-theme="dark"] {
