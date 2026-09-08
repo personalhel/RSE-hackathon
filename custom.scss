@@ -1,25 +1,25 @@
 /*-- scss:defaults --*/
-$body-bg: #000000;
-$body-color: #ffffff;
+$body-bg: #ffffff;
+$body-color: #000000;
 $link-color: #ff6b8a;
 
 /*-- scss:rules --*/
 :root {
-  --bg: #000000;
-  --fg: #ffffff;
-  --accent: #ff6b8a;
-  --cta-fg: #000000;
-  --logo-bg: #ff6b8a;
-  color-scheme: dark;
-}
-
-[data-theme="light"] {
   --bg: #ffffff;
   --fg: #000000;
   --accent: #ff6b8a;
   --cta-fg: #ffffff;
   --logo-bg: #ffffff;
   color-scheme: light;
+}
+
+[data-theme="dark"] {
+  --bg: #000000;
+  --fg: #ffffff;
+  --accent: #ff6b8a;
+  --cta-fg: #000000;
+  --logo-bg: #ff6b8a;
+  color-scheme: dark;
 }
 
 body {

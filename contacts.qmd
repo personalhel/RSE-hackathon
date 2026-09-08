@@ -5,7 +5,7 @@ pagetitle: "Contacts · RSE Hackathon 2026"
 ::: {.hero}
 
 ::: {.hero-top}
-[← Back to RSE Hackathon 2026](index.html){.back-link}
+[← Back to RSE-hackathon](index.html){.back-link}
 
 # Organizers
 :::
@@ -47,7 +47,7 @@ Outreach and Marketing Officer, Travel Organization\
 Technical Chair, Outreach and Marketing Officer\
 [hel@personalhel.com](mailto:hel@personalhel.com)\
 [personalhel.com](https://personalhel.com)\
-[Codeberg](https://codeberg.org) · [GitHub](https://github.com/personalhel)
+[Codeberg](https://codeberg.org/personalhel) · [GitHub](https://github.com/personalhel)
 :::
 
 ## University of Glasgow
@@ -68,29 +68,29 @@ Event Organizer\
 
 :::
 
-<button id="theme-toggle" class="theme-toggle" aria-label="Toggle light and dark mode">☀ Light mode</button>
+<button id="theme-toggle" class="theme-toggle" aria-label="Toggle light and dark mode">● Dark mode</button>
 <script>
 (function () {
   var root = document.documentElement;
   var btn = document.getElementById('theme-toggle');
-  var stored = localStorage.getItem('theme');
-  function setLight() {
-    root.setAttribute('data-theme', 'light');
-    btn.textContent = '● Dark mode';
-  }
+  var stored = localStorage.getItem('theme-v2');
   function setDark() {
-    root.removeAttribute('data-theme');
+    root.setAttribute('data-theme', 'dark');
     btn.textContent = '☀ Light mode';
   }
-  if (stored === 'light') setLight();
+  function setLight() {
+    root.removeAttribute('data-theme');
+    btn.textContent = '● Dark mode';
+  }
+  if (stored === 'dark') setDark();
   btn.addEventListener('click', function () {
-    var isLight = root.getAttribute('data-theme') === 'light';
-    if (isLight) {
-      setDark();
-      localStorage.setItem('theme', 'dark');
-    } else {
+    var isDark = root.getAttribute('data-theme') === 'dark';
+    if (isDark) {
       setLight();
-      localStorage.setItem('theme', 'light');
+      localStorage.setItem('theme-v2', 'light');
+    } else {
+      setDark();
+      localStorage.setItem('theme-v2', 'dark');
     }
   });
 })();
