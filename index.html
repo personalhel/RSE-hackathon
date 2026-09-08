@@ -41,10 +41,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-0ec092b30d28ffe758d786c460809797.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-8703c3060a10b32faedce5523bb646dc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -120,30 +120,30 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <button id="theme-toggle" class="theme-toggle" aria-label="Toggle light and dark mode">
-☀ Light mode
+● Dark mode
 </button>
 <script>
 (function () {
   var root = document.documentElement;
   var btn = document.getElementById('theme-toggle');
-  var stored = localStorage.getItem('theme');
-  function setLight() {
-    root.setAttribute('data-theme', 'light');
-    btn.textContent = '● Dark mode';
-  }
+  var stored = localStorage.getItem('theme-v2');
   function setDark() {
-    root.removeAttribute('data-theme');
+    root.setAttribute('data-theme', 'dark');
     btn.textContent = '☀ Light mode';
   }
-  if (stored === 'light') setLight();
+  function setLight() {
+    root.removeAttribute('data-theme');
+    btn.textContent = '● Dark mode';
+  }
+  if (stored === 'dark') setDark();
   btn.addEventListener('click', function () {
-    var isLight = root.getAttribute('data-theme') === 'light';
-    if (isLight) {
-      setDark();
-      localStorage.setItem('theme', 'dark');
-    } else {
+    var isDark = root.getAttribute('data-theme') === 'dark';
+    if (isDark) {
       setLight();
-      localStorage.setItem('theme', 'light');
+      localStorage.setItem('theme-v2', 'light');
+    } else {
+      setDark();
+      localStorage.setItem('theme-v2', 'dark');
     }
   });
 })();
