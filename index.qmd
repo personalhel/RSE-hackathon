@@ -50,41 +50,30 @@ The coolest module gets an award and stiped.
 
 :::
 
-<button id="theme-toggle" class="theme-toggle" aria-label="Toggle light and dark mode"></button>
+<button id="theme-toggle" class="theme-toggle" aria-label="Toggle light and dark mode">● Dark mode</button>
 <script>
 (function () {
   var root = document.documentElement;
   var btn = document.getElementById('theme-toggle');
   var stored = localStorage.getItem('theme-v2');
-  var systemDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-
-  if (stored === 'dark') {
+  function setDark() {
     root.setAttribute('data-theme', 'dark');
-  } else if (stored === 'light') {
-    root.setAttribute('data-theme', 'light');
+    btn.textContent = '☀ Light mode';
   }
-
-  function isDarkNow() {
-    var attr = root.getAttribute('data-theme');
-    if (attr === 'dark') return true;
-    if (attr === 'light') return false;
-    return systemDark;
+  function setLight() {
+    root.removeAttribute('data-theme');
+    btn.textContent = '● Dark mode';
   }
-
-  function updateLabel() {
-    btn.textContent = isDarkNow() ? '☀ Light mode' : '● Dark mode';
-  }
-
-  updateLabel();
+  if (stored === 'dark') setDark();
   btn.addEventListener('click', function () {
-    if (isDarkNow()) {
-      root.setAttribute('data-theme', 'light');
+    var isDark = root.getAttribute('data-theme') === 'dark';
+    if (isDark) {
+      setLight();
       localStorage.setItem('theme-v2', 'light');
     } else {
-      root.setAttribute('data-theme', 'dark');
+      setDark();
       localStorage.setItem('theme-v2', 'dark');
     }
-    updateLabel();
   });
 })();
 </script>
