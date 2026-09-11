@@ -27,11 +27,12 @@ we will connect just enough of each layer to show a user interacting with a real
 Other ideas for projects and prototyping are of course more than welcome!
 
 ## Practical information
-The hackathon takes place at [University of Glasgow, Scotland]{.highlight} on the 26th and 27th of November, 2026.
+The hackathon takes place at [University of Glasgow, Scotland]{.highlight} on the 26th and 27th of November, 2026 at the [advanced Research Centre]{.highlight}
+at _University of Glasgow, 11 Chapel Lane, G11 6EW_.
 
-_Day 1:_ lightning talks framing the challenges, team formation, and prototyping
+_Day 1:_ lightning talks framing the challenges, team formation, and prototyping (09.00 to 17.00)
 
-_Day 2:_ build a short showcase and a community roadmap for carrying winning prototypes forward.
+_Day 2:_ build a short showcase and a community roadmap for carrying winning prototypes forward. (09.00 to 17.00)
 
 Hybrid attendance for remote contributors is also possible.
 :::
