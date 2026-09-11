@@ -31,7 +31,9 @@ Event Organizer, Program Chair\
 [GitHub](https://github.com/juliandehne)
 :::
 
-::: {.contact-card}
+::: {.contact-card .has-photo}
+<img class="contact-photo" src="fabian-photo.jpg" alt="Fabian Lochner">
+
 **Fabian Lochner** [he/him]{.pronouns}\
 Outreach and Marketing Officer, Travel Organization\
 [fabian.lochner@gi.de](mailto:fabian.lochner@gi.de)\
