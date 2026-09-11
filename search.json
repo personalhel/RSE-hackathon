@@ -4,7 +4,7 @@
     "href": "contacts.html",
     "title": "Organizers",
     "section": "",
-    "text": "← Back to RSE-hackathon\n\n\n\n\n\n\n\n\nMagnus Hagdorn he/him\nProgram Chair\nmagnus.hagdorn@charite.de\n\n\n\n\n\n\nJulian Dehne he/him\nEvent Organizer, Program Chair\njulian.dehne@gi.de\njuliandehne.github.io\nGitHub\n\n\nFabian Lochner he/him\nOutreach and Marketing Officer, Travel Organization\nfabian.lochner@gi.de\nGitHub\n\n\n\n\n\n\nHelene S. Holst she/her\nTechnical Chair, Outreach and Marketing Officer\nhel@personalhel.com\npersonalhel.com\nCodeberg · GitHub\n\n\n\n\n\nBernhard Reinsberg he/him\nEvent Organizer\nBernhard.Reinsberg@glasgow.ac.uk\n\n\nJessica Brackenridge she/her\nEvent Organizer\nJessica.Brackenridge@glasgow.ac.uk"
+    "text": "← Back to RSE-hackathon\n\n\n\n\n\n\n\n\nMagnus Hagdorn he/him\nProgram Chair\nmagnus.hagdorn@charite.de\n\n\n\n\n\n\nJulian Dehne he/him\nEvent Organizer, Program Chair\njulian.dehne@gi.de\njuliandehne.github.io\nGitHub\n\n\n\nFabian Lochner he/him\nOutreach and Marketing Officer, Travel Organization\nfabian.lochner@gi.de\nGitHub\n\n\n\n\n\n\nHelene S. Holst she/her\nTechnical Chair, Outreach and Marketing Officer\nhel@personalhel.com\npersonalhel.com\nCodeberg · GitHub\n\n\n\n\n\nBernhard Reinsberg he/him\nEvent Organizer\nBernhard.Reinsberg@glasgow.ac.uk\n\n\nJessica Brackenridge she/her\nEvent Organizer\nJessica.Brackenridge@glasgow.ac.uk"
   },
   {
     "objectID": "contacts.html#charité",
@@ -18,7 +18,7 @@
     "href": "contacts.html#gesellschaft-für-informatik",
     "title": "Organizers",
     "section": "",
-    "text": "Julian Dehne he/him\nEvent Organizer, Program Chair\njulian.dehne@gi.de\njuliandehne.github.io\nGitHub\n\n\nFabian Lochner he/him\nOutreach and Marketing Officer, Travel Organization\nfabian.lochner@gi.de\nGitHub"
+    "text": "Julian Dehne he/him\nEvent Organizer, Program Chair\njulian.dehne@gi.de\njuliandehne.github.io\nGitHub\n\n\n\nFabian Lochner he/him\nOutreach and Marketing Officer, Travel Organization\nfabian.lochner@gi.de\nGitHub"
   },
   {
     "objectID": "contacts.html#university-of-copenhagen",
@@ -39,13 +39,13 @@
     "href": "index.html",
     "title": "RSE-hackathon",
     "section": "",
-    "text": "Glasgow · 26–27 November 2026\n\n\nTwo days of building research software engineering tools in Glasgow.\nRegister on Eventbrite\n\n\n\nResearch Software Engineering (RSE) practice and training remain fragmented along disciplinary lines: each field reinvents tooling, conventions, and teaching material, so we will conduct an open hackathon to prototype discipline-overarching RSE frameworks — shared, reusable building blocks that work across the social sciences, life sciences, and the humanities rather than within a single silo.\nIn two days, the team will produce an overall system design (such as a UML diagram) and a working end-to-end prototype. We will use a thin-slice approach: rather than spending time building a complete database or UI, we will connect just enough of each layer to show a user interacting with a real, working feature.\nOther ideas for projects and prototyping are of course more than welcome!\n\n\nThe hackathon takes place at University of Glasgow, Scotland on the 26th and 27th of November, 2026.\nDay 1: lightning talks framing the challenges, team formation, and prototyping\nDay 2: build a short showcase and a community roadmap for carrying winning prototypes forward.\nHybrid attendance for remote contributors is also possible.\n\n\nThe coolest module gets an award and stiped.\n\n \n\n\n\nPeople involved →"
+    "text": "Glasgow · 26–27 November 2026\n\n\nTwo days of building research software engineering tools in Glasgow.\nRegister on Eventbrite\n\n\n\nResearch Software Engineering (RSE) practice and training remain fragmented along disciplinary lines: each field reinvents tooling, conventions, and teaching material, so we will conduct an open hackathon to prototype discipline-overarching RSE frameworks — shared, reusable building blocks that work across the social sciences, life sciences, and the humanities rather than within a single silo.\nIn two days, the team will produce an overall system design (such as a UML diagram) and a working end-to-end prototype. We will use a thin-slice approach: rather than spending time building a complete database or UI, we will connect just enough of each layer to show a user interacting with a real, working feature.\nOther ideas for projects and prototyping are of course more than welcome!\n\n\nThe hackathon takes place at University of Glasgow, Scotland on the 26th and 27th of November, 2026 at the advanced Research Centre at University of Glasgow, 11 Chapel Lane, G11 6EW.\nDay 1: lightning talks framing the challenges, team formation, and prototyping (09.00 to 17.00)\nDay 2: build a short showcase and a community roadmap for carrying winning prototypes forward. (09.00 to 17.00)\nHybrid attendance for remote contributors is also possible.\n\n\nThe coolest module gets an award and stiped.\n\n \n\n\n\nPeople involved →"
   },
   {
     "objectID": "index.html#practical-information",
     "href": "index.html#practical-information",
     "title": "RSE-hackathon",
     "section": "",
-    "text": "The hackathon takes place at University of Glasgow, Scotland on the 26th and 27th of November, 2026.\nDay 1: lightning talks framing the challenges, team formation, and prototyping\nDay 2: build a short showcase and a community roadmap for carrying winning prototypes forward.\nHybrid attendance for remote contributors is also possible."
+    "text": "The hackathon takes place at University of Glasgow, Scotland on the 26th and 27th of November, 2026 at the advanced Research Centre at University of Glasgow, 11 Chapel Lane, G11 6EW.\nDay 1: lightning talks framing the challenges, team formation, and prototyping (09.00 to 17.00)\nDay 2: build a short showcase and a community roadmap for carrying winning prototypes forward. (09.00 to 17.00)\nHybrid attendance for remote contributors is also possible."
   }
 ]
