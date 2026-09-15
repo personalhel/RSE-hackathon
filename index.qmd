@@ -35,6 +35,8 @@ _Day 1:_ lightning talks framing the challenges, team formation, and prototyping
 _Day 2:_ build a short showcase and a community roadmap for carrying winning prototypes forward. (09.00 to 17.00)
 
 Hybrid attendance for remote contributors is also possible.
+
+Join the conversation on our [Matrix room](https://matrix.to/#/#rse-hackathon-glasgow-:matrix.org).
 :::
 
 The coolest module gets an award and stiped.
