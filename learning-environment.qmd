@@ -11,10 +11,14 @@ pagetitle: "The RSE learning environment · RSE Hackathon 2026"
 :::
 
 ::: {.hero-body}
-The flagship challenge of the hackathon is a prototype of something that does not yet exist: an open,
-discipline-overarching environment in which people _learn research software engineering by doing it_ —
-with accounts, teams, submitted artefacts, feedback and peer review around the material, not just the
-material itself.
+The flagship challenge of the hackathon is an open, discipline-overarching environment in which people
+_learn research software engineering by doing it_ — with accounts, teams, submitted artefacts, feedback
+and peer review around the material, not just the material itself.
+
+Parts of this exist. Oxford RSE's [Gutenberg](https://www.rse.ox.ac.uk/gutenberg) is an open-source
+platform with accounts, courses and progress tracking, and it is the natural starting point rather than
+a competitor. What no platform yet does is close the loop between learners — group work, artefact
+submission, peer assessment — or run the exercise on the hardware RSE actually targets.
 
 This page sets out what already exists, why general-purpose learning technology does not fit RSE, and
 the design questions we want to attack in Glasgow. None of them is settled — that is the point of the
@@ -58,6 +62,7 @@ The offerings closest to what we propose, with their public sources, and the gap
 
 | Environment | What it offers | What it does not cover |
 |---|---|---|
+| **[Gutenberg](https://www.rse.ox.ac.uk/gutenberg)** · Oxford RSE, for [UNIVERSE-HPC](http://www.universe-hpc.ac.uk/) — [GitHub](https://github.com/OxfordRSE/gutenberg), running at [train.rse.ox.ac.uk](https://train.rse.ox.ac.uk/)<br>_RSE and HPC training, undergraduate through to CPD_ | The closest thing that exists: an open-source (BSD-3) Next.js/PostgreSQL platform with user accounts, course enrolment, pathway-based syllabi, and module completion plus exercise results reported back to course leaders. Material stays as Markdown in separate CC-licensed repositories, so content and engine are decoupled and any institution can self-host | Closes the instructor-facing half of the loop only: no group formation, no submission of a learner-built artefact, no peer assessment. Exercises are Markdown callouts and no execution back-end is part of the platform — so even in an HPC curriculum, learners run the code somewhere else. No learning-object metadata |
 | **[The Carpentries](https://carpentries.org/)** · Software, Data & Library Carpentry — [GitHub](https://github.com/carpentries)<br>_Cross-disciplinary foundational computing skills_ | Community-maintained open lessons, instructor training, and a global workshop network | Lesson websites plus instructor-led workshops, not a running environment: no accounts, no teams, no artefact submission, no peer assessment |
 | **[RSE-Mentopolis](https://learntech.rwth-aachen.de/go/id/bmahlp/)** · RWTH Aachen / Klaus Tschira Foundation<br>_Sustainable research software: lifecycle models and educational modules_ | The closest in ambition — stakeholder and lifecycle models plus teaching modules for researchers who develop software | A research project anchored in one institution, producing models and modules rather than an environment other universities can deploy and run |
 | **[KODAQS Toolbox](https://kodaqs-toolbox.gesis.org/)** · GESIS / Mannheim / LMU — built on [andrew](https://github.com/GESIS-Methods-Hub/andrew)<br>_Social sciences: data quality across survey, digital behavioural and linked data_ | Curated tutorials with hands-on coding examples in an open-source aggregation hub, alongside the blended KODAQS Academy programme | Single discipline and single topic; teaches data-analysis practice rather than software engineering. The hub aggregates content; it does not host group work |
@@ -69,21 +74,26 @@ _Landscape as surveyed for the CHARTED dRTP proposal; all links checked 3 August
 
 Three gaps follow, and they are exactly what the hackathon attacks:
 
-1. _Coverage is siloed._ Where teaching is hands-on, it is tied to one discipline's research process or to one technology stack.
-2. _The loop is open._ None of these closes user management → group formation → artefact submission → structured feedback → peer assessment.
+1. _Coverage is siloed._ Where teaching is hands-on, it is usually tied to one discipline's research process or to one technology stack. Gutenberg is the instructive exception: it is discipline-neutral precisely because the content lives in separate repositories and only the engine is shared.
+2. _The loop is only half closed._ Gutenberg gets furthest — accounts, enrolment, completion and exercise results — but stops at what the instructor sees. None of these offerings covers group formation → artefact submission → structured feedback → peer assessment, so learners still never review each other's code.
 3. _AI-generated code is unaddressed._ No existing environment lets a team record which parts of generated code a human actually inspected.
 
-We build **on** this material rather than duplicating it: Carpentries lessons and the KODAQS and iBOTS
-course structures are directly reusable inside such an environment.
+We build **on** this rather than duplicating it. Carpentries lessons and the KODAQS and iBOTS course
+structures are directly reusable inside such an environment — and Gutenberg is a serious candidate for
+the base itself: BSD-licensed, self-hostable, already carrying the accounts and course model, and
+missing exactly the pieces the hackathon sets out to prototype. "Extend Gutenberg" is a legitimate
+outcome of the two days, and arguably the cheapest route to a working thin slice.
 
 ## The link to learning technology: standards
 
 Underneath the gaps sits a question that predates this proposal and comes out of the RSE curriculum
 discussion: **where should RSE learning material be stored, and in which format?** The material we
-surveyed lives as executable notebooks and R Markdown rendered into static sites — the *andrew*
-aggregator behind the KODAQS Toolbox executes Jupyter and R Markdown inside containers, the iBOTS
-platform is a static site with notebooks — while the learning-object metadata standards from learning
-technology are absent throughout.
+surveyed lives as executable notebooks and R Markdown rendered into static sites, or as plain Markdown
+in Git repositories — the *andrew* aggregator behind the KODAQS Toolbox executes Jupyter and R Markdown
+inside containers, the iBOTS platform is a static site with notebooks, Gutenberg pulls CC-licensed
+Markdown from separate repositories — while the learning-object metadata standards from learning
+technology are absent throughout. Not one of these platforms describes its material with LOM, SCORM or
+anything equivalent; discovery and reuse across institutions happen by reading READMEs.
 
 ::: {.why-grid}
 
@@ -118,8 +128,14 @@ extension covers the rest.
 
 ## The link to RSE requirements: real infrastructure
 
-The other half of the problem is the one learning technology never had to solve. An RSE learning
-environment sits on top of research computing infrastructure, which means:
+The other half of the problem is the one learning technology never had to solve. Gutenberg makes the
+point sharply: it was built for [UNIVERSE-HPC]{.highlight}, a curriculum explicitly about research
+software engineering *for high-performance computing*, by the RSE groups at Oxford, Southampton,
+Imperial and Edinburgh together with EPCC and the Software Sustainability Institute — and it still
+delivers material *about* HPC rather than running *on* it. The compute stays the learner's problem.
+That is not an oversight in Gutenberg; it is the hard part everyone has deferred.
+
+An RSE learning environment sits on top of research computing infrastructure, which means:
 
 - **Compute back-ends.** Where do examples with [GPU]{.highlight} requirements run? Notebook services
   such as JupyterHub or BinderHub cover the small cases; teaching CUDA kernels or MPI means a real
@@ -137,12 +153,15 @@ environment sits on top of research computing infrastructure, which means:
 ## Open design questions for the two days
 
 1. **Metadata standards.** Is any learning-object metastandard (IEEE LOM, SCORM/xAPI, H5P) applicable to RSE content? What would an RSE application profile have to add?
-2. **Architecture.** Federated, so institutions keep and describe their own material — or component-based, with one platform and pluggable parts?
+2. **Architecture.** Federated, so institutions keep and describe their own material — or component-based, with one platform and pluggable parts? Gutenberg has already picked an answer worth arguing with: shared engine, content in separate repositories.
 3. **Runnable examples.** Which languages must be supported, and in book-style or notebook-style form?
 4. **Compute.** Where do GPU and HPC examples run, and who pays for them?
 5. **Integration.** How does such an environment sit alongside the learning management systems universities already run — and alongside the GitLab/GitHub instances where the code already lives?
-6. **Self-builds.** Several groups have built their own platform. What are their perks, and can they be integrated rather than replaced?
+6. **Build on, or build new?** Several groups have built their own platform — Gutenberg above all, and it is open source and self-hostable. What are their perks, can they be integrated rather than replaced, and is forking Gutenberg the fastest way to a working thin slice?
 7. **AI-generated code.** How do you represent, store and assess "this block was generated, and a human inspected it"?
+
+The [modules page](modules.html) breaks these down into pieces small enough to build in two days, and
+says what we think the two days can realistically produce.
 
 ## Bring an answer — or a better question
 
@@ -155,7 +174,7 @@ Or join the [Matrix room](https://matrix.to/#/#rse-hackathon-glasgow-:matrix.org
 :::
 
 ::: {.organizers}
-[← Back to RSE-hackathon](index.html){.people-link} [People involved →](contacts.html){.people-link}
+[← Back to RSE-hackathon](index.html){.people-link} [Modules and outputs →](modules.html){.people-link} [People involved →](contacts.html){.people-link}
 :::
 
 :::

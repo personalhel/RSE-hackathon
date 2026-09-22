@@ -365,6 +365,25 @@ main.content {
   opacity: 1;
 }
 
+.phases td:first-child {
+  min-width: 9rem;
+  white-space: nowrap;
+}
+
+.why-card ul {
+  font-size: 0.95rem;
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.why-card li {
+  margin-bottom: 0.5rem;
+}
+
+.why-card li:last-child {
+  margin-bottom: 0;
+}
+
 .landscape a {
   color: var(--accent);
   text-decoration: none;
