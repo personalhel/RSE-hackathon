@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>RSE Hackathon 2026</title>
+<title>The RSE learning environment · RSE Hackathon 2026 – RSE Hackathon 2026</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -92,57 +92,134 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="hero">
 <div class="hero-top">
-<p><span class="eyebrow">Glasgow · 26–27 November 2026</span></p>
-<section id="rse-hackathon" class="level1">
-<h1>RSE-hackathon</h1>
-<p>Two days of building an <strong>open RSE learning environment</strong> — and other research software engineering tools — in <strong>Glasgow</strong>.</p>
-<p><a href="https://www.eventbrite.com/e/rse-hackathon-2026-at-university-of-glasgow-tickets-2000034040655" class="cta" target="_blank">Register on Eventbrite</a></p>
+<p><a href="index.html" class="back-link">← Back to RSE-hackathon</a></p>
+<section id="an-rse-learning-environment" class="level1">
+<h1>An RSE learning environment</h1>
 </section>
 </div>
 <div class="hero-body">
-<p>Research Software Engineering (RSE) practice and training remain fragmented along disciplinary lines: each field reinvents tooling, conventions, and teaching material, so we will conduct an open hackathon to prototype discipline-overarching RSE frameworks — shared, reusable building blocks that work across the social sciences, life sciences, and the humanities rather than within a single silo.</p>
-<section id="the-flagship-idea-an-rse-learning-environment" class="level2">
-<h2 class="anchored" data-anchor-id="the-flagship-idea-an-rse-learning-environment">The flagship idea: an RSE learning environment</h2>
-<p>RSE teaching material is plentiful and much of it is excellent. A shared environment in which learners actually <em>work</em> is not. Oxford RSE’s <a href="https://www.rse.ox.ac.uk/gutenberg">Gutenberg</a> gets furthest — open source, with accounts, courses and progress tracking — but the loop between learners is still open everywhere: group formation, submitting an artefact, getting feedback, reviewing someone else’s code. So learners read about good practice instead of practising it on each other’s code.</p>
+<p>The flagship challenge of the hackathon is an open, discipline-overarching environment in which people <em>learn research software engineering by doing it</em> — with accounts, teams, submitted artefacts, feedback and peer review around the material, not just the material itself.</p>
+<p>Parts of this exist. Oxford RSE’s <a href="https://www.rse.ox.ac.uk/gutenberg">Gutenberg</a> is an open-source platform with accounts, courses and progress tracking, and it is the natural starting point rather than a competitor. What no platform yet does is close the loop between learners — group work, artefact submission, peer assessment — or run the exercise on the hardware RSE actually targets.</p>
+<p>This page sets out what already exists, why general-purpose learning technology does not fit RSE, and the design questions we want to attack in Glasgow. None of them is settled — that is the point of the two days.</p>
+<section id="why-not-just-use-a-normal-learning-platform" class="level2">
+<h2 class="anchored" data-anchor-id="why-not-just-use-a-normal-learning-platform">Why not just use a normal learning platform?</h2>
+<p>Learning technology has thirty years of standards and platforms behind it, and RSE should reuse every bit of it that fits. Three things do not fit.</p>
 <div class="why-grid">
-<section id="notebooks-not-pages" class="level3 why-card">
-<h3 class="anchored" data-anchor-id="notebooks-not-pages">Notebooks, not pages</h3>
-<p>Traditional learning environments (Moodle, Canvas, ILIAS) were built for self-contained documents and quizzes. They cannot host a Jupyter or R Markdown notebook as a first-class, runnable assignment.</p>
+<section id="notebooks-are-not-documents" class="level3 why-card">
+<h3 class="anchored" data-anchor-id="notebooks-are-not-documents">Notebooks are not documents</h3>
+<p>The dominant RSE teaching format is the executable notebook — Jupyter, R Markdown, Quarto. Learning management systems assume a self-contained, assessable object: a page, a video, a quiz. A notebook is none of these; it is code that must <em>run</em> against a real environment before it means anything.</p>
 </section>
-<section id="real-compute-not-toy-examples" class="level3 why-card">
-<h3 class="anchored" data-anchor-id="real-compute-not-toy-examples">Real compute, not toy examples</h3>
-<p>RSE assignments need the machines RSE actually runs on: <span class="highlight">GPUs, batch schedulers, HPC allocations, containers</span>. No LMS can embed an exercise that has to be submitted to a cluster.</p>
+<section id="compute-is-part-of-the-exercise" class="level3 why-card">
+<h3 class="anchored" data-anchor-id="compute-is-part-of-the-exercise">Compute is part of the exercise</h3>
+<p>An RSE assignment is frequently about the machine: a <span class="highlight">GPU</span> kernel, an <span class="highlight">MPI</span> job, a <span class="highlight">SLURM</span> batch script, a container that has to build. You cannot embed “submit this to the cluster and account for your allocation” in a quiz engine.</p>
 </section>
-<section id="oer-in-oer-out" class="level3 why-card">
-<h3 class="anchored" data-anchor-id="oer-in-oer-out">OER in, OER out</h3>
-<p>What learners and instructors produce should leave the platform again as open educational resources — as notebooks and as <span class="highlight">standards-described learning objects</span>, not locked in a course shell.</p>
-</section>
-</div>
-<section id="the-challenge-for-the-two-days" class="level3">
-<h3 class="anchored" data-anchor-id="the-challenge-for-the-two-days">The challenge for the two days</h3>
-<p>A minimal working example of the pipeline: simple user management, group formation, a feedback loop, and peer assessment for uploaded RSE artefacts.</p>
-<p>We use a thin-slice approach: rather than spending the two days building a complete database or UI, we connect just enough of each layer to show a user interacting with a real, working feature — alongside an overall system design (UML or similar) to carry the work forward.</p>
-<p><a href="learning-environment.html" class="people-link">Standards, architecture and the open questions →</a></p>
-<p>A breakdown into modules that a single team can take on in two days, and what we think the two days can realistically produce, is on the <a href="modules.html">modules page</a>.</p>
-<p>Other ideas for projects and prototyping are of course more than welcome!</p>
-</section>
-</section>
-<section id="practical-information" class="level2">
-<h2 class="anchored" data-anchor-id="practical-information">Practical information</h2>
-<p>The hackathon takes place at <span class="highlight">University of Glasgow, Scotland</span> on the 26th and 27th of November, 2026 at the <span class="highlight">advanced Research Centre</span> at <em>University of Glasgow, 11 Chapel Lane, G11 6EW</em>.</p>
-<p><em>Day 1:</em> lightning talks framing the challenges, team formation, and prototyping (09.00 to 17.00)</p>
-<p><em>Day 2:</em> build a short showcase and a community roadmap for carrying winning prototypes forward. (09.00 to 17.00)</p>
-<p>Hybrid attendance for remote contributors is also possible.</p>
-<p>Join the conversation on our <a href="https://matrix.to/#/#rse-hackathon-glasgow-:matrix.org">Matrix room</a>.</p>
+<section id="results-must-leave-again" class="level3 why-card">
+<h3 class="anchored" data-anchor-id="results-must-leave-again">Results must leave again</h3>
+<p>What a course produces — lessons, worked solutions, learner artefacts — should be publishable as open educational resources and as reusable notebooks. Today it is either locked inside a course shell or published as a static site with no environment around it.</p>
 </section>
 </div>
-<p>The coolest module gets an award and stiped.</p>
-<div class="logo-row">
-<p><a href="https://www.gla.ac.uk" class="logo-box"><img src="uni-glasgow-logo.png" class="img-fluid" alt="University of Glasgow"></a> <a href="https://gi.de/en/" class="logo-box"><img src="GI_R.png" class="img-fluid" alt="Gesellschaft für Informatik"></a></p>
-<p><a class="logo-box logo-box-large" href="https://de-rse.org/en/" target="_blank" rel="noopener"><img src="de-RSE-logo-text-colour.svg" alt="de-RSE — Society for Research Software"></a></p>
+</section>
+<section id="what-already-exists-and-what-it-does-not-cover" class="level2">
+<h2 class="anchored" data-anchor-id="what-already-exists-and-what-it-does-not-cover">What already exists — and what it does not cover</h2>
+<p>The offerings closest to what we propose, with their public sources, and the gap each one leaves.</p>
+<div class="landscape">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Environment</th>
+<th>What it offers</th>
+<th>What it does not cover</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong><a href="https://www.rse.ox.ac.uk/gutenberg">Gutenberg</a></strong> · Oxford RSE, for <a href="http://www.universe-hpc.ac.uk/">UNIVERSE-HPC</a> — <a href="https://github.com/OxfordRSE/gutenberg">GitHub</a>, running at <a href="https://train.rse.ox.ac.uk/">train.rse.ox.ac.uk</a><br><em>RSE and HPC training, undergraduate through to CPD</em></td>
+<td>The closest thing that exists: an open-source (BSD-3) Next.js/PostgreSQL platform with user accounts, course enrolment, pathway-based syllabi, and module completion plus exercise results reported back to course leaders. Material stays as Markdown in separate CC-licensed repositories, so content and engine are decoupled and any institution can self-host</td>
+<td>Closes the instructor-facing half of the loop only: no group formation, no submission of a learner-built artefact, no peer assessment. Exercises are Markdown callouts and no execution back-end is part of the platform — so even in an HPC curriculum, learners run the code somewhere else. No learning-object metadata</td>
+</tr>
+<tr class="even">
+<td><strong><a href="https://carpentries.org/">The Carpentries</a></strong> · Software, Data &amp; Library Carpentry — <a href="https://github.com/carpentries">GitHub</a><br><em>Cross-disciplinary foundational computing skills</em></td>
+<td>Community-maintained open lessons, instructor training, and a global workshop network</td>
+<td>Lesson websites plus instructor-led workshops, not a running environment: no accounts, no teams, no artefact submission, no peer assessment</td>
+</tr>
+<tr class="odd">
+<td><strong><a href="https://learntech.rwth-aachen.de/go/id/bmahlp/">RSE-Mentopolis</a></strong> · RWTH Aachen / Klaus Tschira Foundation<br><em>Sustainable research software: lifecycle models and educational modules</em></td>
+<td>The closest in ambition — stakeholder and lifecycle models plus teaching modules for researchers who develop software</td>
+<td>A research project anchored in one institution, producing models and modules rather than an environment other universities can deploy and run</td>
+</tr>
+<tr class="even">
+<td><strong><a href="https://kodaqs-toolbox.gesis.org/">KODAQS Toolbox</a></strong> · GESIS / Mannheim / LMU — built on <a href="https://github.com/GESIS-Methods-Hub/andrew">andrew</a><br><em>Social sciences: data quality across survey, digital behavioural and linked data</em></td>
+<td>Curated tutorials with hands-on coding examples in an open-source aggregation hub, alongside the blended KODAQS Academy programme</td>
+<td>Single discipline and single topic; teaches data-analysis practice rather than software engineering. The hub aggregates content; it does not host group work</td>
+</tr>
+<tr class="odd">
+<td><strong><a href="https://learn.ibots-bonn.de/docs/">iBOTS / iBehave</a></strong> · University of Bonn — <a href="https://github.com/ibehave-ibots">GitHub</a><br><em>Neuroscience</em></td>
+<td>Open, self-paced course tracks from Python and NumPy through to Git and DataLad, delivered as a static site with Jupyter notebooks</td>
+<td>Single discipline, and static by construction: no user management, no group formation, no feedback loop, no assessment of what learners produce</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><em>Landscape as surveyed for the CHARTED dRTP proposal; all links checked 3 August 2026.</em></p>
+<p>Two gaps follow, and they are exactly what the hackathon attacks:</p>
+<ol type="1">
+<li><em>Coverage is siloed.</em> Where teaching is hands-on, it is usually tied to one discipline’s research process or to one technology stack. Gutenberg is the instructive exception: it is discipline-neutral precisely because the content lives in separate repositories and only the engine is shared.</li>
+<li><em>The loop is only half closed.</em> Gutenberg gets furthest — accounts, enrolment, completion and exercise results — but stops at what the instructor sees. None of these offerings covers group formation → artefact submission → structured feedback → peer assessment, so learners still never review each other’s code.</li>
+</ol>
+<p>We build <strong>on</strong> this rather than duplicating it. Carpentries lessons and the KODAQS and iBOTS course structures are directly reusable inside such an environment — and Gutenberg is a serious candidate for the base itself: BSD-licensed, self-hostable, already carrying the accounts and course model, and missing exactly the pieces the hackathon sets out to prototype. “Extend Gutenberg” is a legitimate outcome of the two days, and arguably the cheapest route to a working thin slice.</p>
+</section>
+<section id="the-link-to-learning-technology-standards" class="level2">
+<h2 class="anchored" data-anchor-id="the-link-to-learning-technology-standards">The link to learning technology: standards</h2>
+<p>Underneath the gaps sits a question that predates this proposal and comes out of the RSE curriculum discussion: <strong>where should RSE learning material be stored, and in which format?</strong> The material we surveyed lives as executable notebooks and R Markdown rendered into static sites, or as plain Markdown in Git repositories — the <em>andrew</em> aggregator behind the KODAQS Toolbox executes Jupyter and R Markdown inside containers, the iBOTS platform is a static site with notebooks, Gutenberg pulls CC-licensed Markdown from separate repositories — while the learning-object metadata standards from learning technology are absent throughout. Not one of these platforms describes its material with LOM, SCORM or anything equivalent; discovery and reuse across institutions happen by reading READMEs.</p>
+<div class="why-grid">
+<section id="ieee-lom" class="level3 why-card">
+<h3 class="anchored" data-anchor-id="ieee-lom">IEEE LOM</h3>
+<p>Learning Object Metadata describes a resource so it can be found and reused across repositories. It is the natural candidate for an RSE OER index — but its educational vocabulary (interactivity type, typical learning time, semantic density) was written for documents, not for a code repository plus an environment specification.</p>
+</section>
+<section id="scorm-xapi" class="level3 why-card">
+<h3 class="anchored" data-anchor-id="scorm-xapi">SCORM / xAPI</h3>
+<p>Packaging and run-time tracking for self-contained courseware. SCORM assumes the object runs in the browser inside the LMS; an RSE exercise runs in a container, or on a cluster. <span class="highlight">xAPI</span> is the more promising half: it can record statements about activity that happens <em>outside</em> the platform.</p>
+</section>
+<section id="h5p" class="level3 why-card">
+<h3 class="anchored" data-anchor-id="h5p">H5P</h3>
+<p>Rich interactive content types, open source and widely integrated into LMSs. Excellent for the conceptual layer of an RSE lesson; it has no notion of executing learner-supplied code against a real toolchain. Where is the boundary between an H5P element and a notebook cell?</p>
+</section>
+</div>
+<p>The open question for the hackathon is therefore not which standard to adopt but whether any of them is <em>applicable</em> to RSE content at all, given that they assume self-contained, assessable objects rather than code that must run against a real environment — and, if the answer is “partly”, which profile or extension covers the rest.</p>
+</section>
+<section id="the-link-to-rse-requirements-real-infrastructure" class="level2">
+<h2 class="anchored" data-anchor-id="the-link-to-rse-requirements-real-infrastructure">The link to RSE requirements: real infrastructure</h2>
+<p>The other half of the problem is the one learning technology never had to solve. Gutenberg makes the point sharply: it was built for <span class="highlight">UNIVERSE-HPC</span>, a curriculum explicitly about research software engineering <em>for high-performance computing</em>, by the RSE groups at Oxford, Southampton, Imperial and Edinburgh together with EPCC and the Software Sustainability Institute — and it still delivers material <em>about</em> HPC rather than running <em>on</em> it. The compute stays the learner’s problem. That is not an oversight in Gutenberg; it is the hard part everyone has deferred.</p>
+<p>An RSE learning environment sits on top of research computing infrastructure, which means:</p>
+<ul>
+<li><strong>Compute back-ends.</strong> Where do examples with <span class="highlight">GPU</span> requirements run? Notebook services such as JupyterHub or BinderHub cover the small cases; teaching CUDA kernels or MPI means a real allocation on an <span class="highlight">HPC</span> system, reached through a batch scheduler (SLURM) or a gateway such as Open OnDemand.</li>
+<li><strong>Identity and access.</strong> University HPC access runs on federated identity and project allocations. An environment that hands out accounts has to reconcile that with how clusters actually admit users.</li>
+<li><strong>Environments as artefacts.</strong> Containers, lockfiles and module systems are not deployment details here; reproducing the environment <em>is</em> part of the learning objective and part of what gets assessed.</li>
+<li><strong>Languages.</strong> <span class="highlight">Python and R</span> at minimum, as in <em>andrew</em> — but RSE teaching also needs compiled languages: <span class="highlight">C++</span>, Fortran, Julia, and the build systems around them.</li>
+<li><strong>Cost and fair use.</strong> Peer assessment means many people running each other’s code. Quotas, scheduling and cost control are design constraints from day one, not afterthoughts.</li>
+</ul>
+</section>
+<section id="open-design-questions-for-the-two-days" class="level2">
+<h2 class="anchored" data-anchor-id="open-design-questions-for-the-two-days">Open design questions for the two days</h2>
+<ol type="1">
+<li><strong>Metadata standards.</strong> Is any learning-object metastandard (IEEE LOM, SCORM/xAPI, H5P) applicable to RSE content? What would an RSE application profile have to add?</li>
+<li><strong>Architecture.</strong> Federated, so institutions keep and describe their own material — or component-based, with one platform and pluggable parts? Gutenberg has already picked an answer worth arguing with: shared engine, content in separate repositories.</li>
+<li><strong>Runnable examples.</strong> Which languages must be supported, and in book-style or notebook-style form?</li>
+<li><strong>Compute.</strong> Where do GPU and HPC examples run, and who pays for them?</li>
+<li><strong>Integration.</strong> How does such an environment sit alongside the learning management systems universities already run — and alongside the GitLab/GitHub instances where the code already lives?</li>
+<li><strong>Build on, or build new?</strong> Several groups have built their own platform — Gutenberg above all, and it is open source and self-hostable. What are their perks, can they be integrated rather than replaced, and is forking Gutenberg the fastest way to a working thin slice?</li>
+</ol>
+<p>The <a href="modules.html">modules page</a> breaks these down into pieces small enough to build in two days, and says what we think the two days can realistically produce.</p>
+</section>
+<section id="bring-an-answer-or-a-better-question" class="level2">
+<h2 class="anchored" data-anchor-id="bring-an-answer-or-a-better-question">Bring an answer — or a better question</h2>
+<p>If you have built one of these, surveyed one of these, or have strong opinions about any of the six, come and say so on day 1.</p>
+<p><a href="https://www.eventbrite.com/e/rse-hackathon-2026-at-university-of-glasgow-tickets-2000034040655" class="cta" target="_blank">Register on Eventbrite</a></p>
+<p>Or join the <a href="https://matrix.to/#/#rse-hackathon-glasgow-:matrix.org">Matrix room</a> first.</p>
+</section>
 </div>
 <div class="organizers">
-<p><a href="learning-environment.html" class="people-link">The learning environment →</a> <a href="modules.html" class="people-link">Modules and outputs →</a> <a href="contacts.html" class="people-link">People involved →</a></p>
+<p><a href="index.html" class="people-link">← Back to RSE-hackathon</a> <a href="modules.html" class="people-link">Modules and outputs →</a> <a href="contacts.html" class="people-link">People involved →</a></p>
 </div>
 </div>
 <button id="theme-toggle" class="theme-toggle" aria-label="Toggle light and dark mode">

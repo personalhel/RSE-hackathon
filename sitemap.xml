@@ -2,10 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://personalhel.github.io/RSE-hackathon/contacts.html</loc>
-    <lastmod>2026-09-15T13:24:25.992Z</lastmod>
+    <lastmod>2026-09-22T09:44:13.642Z</lastmod>
+  </url>
+  <url>
+    <loc>https://personalhel.github.io/RSE-hackathon/learning-environment.html</loc>
+    <lastmod>2026-09-22T09:44:13.644Z</lastmod>
   </url>
   <url>
     <loc>https://personalhel.github.io/RSE-hackathon/index.html</loc>
-    <lastmod>2026-09-15T13:24:25.994Z</lastmod>
+    <lastmod>2026-09-22T09:44:13.644Z</lastmod>
+  </url>
+  <url>
+    <loc>https://personalhel.github.io/RSE-hackathon/modules.html</loc>
+    <lastmod>2026-09-22T09:44:13.644Z</lastmod>
   </url>
 </urlset>
