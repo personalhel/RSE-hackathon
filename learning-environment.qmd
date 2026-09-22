@@ -1,0 +1,189 @@
+---
+pagetitle: "The RSE learning environment · RSE Hackathon 2026"
+---
+
+::: {.hero}
+
+::: {.hero-top}
+[← Back to RSE-hackathon](index.html){.back-link}
+
+# An RSE learning environment
+:::
+
+::: {.hero-body}
+The flagship challenge of the hackathon is a prototype of something that does not yet exist: an open,
+discipline-overarching environment in which people _learn research software engineering by doing it_ —
+with accounts, teams, submitted artefacts, feedback and peer review around the material, not just the
+material itself.
+
+This page sets out what already exists, why general-purpose learning technology does not fit RSE, and
+the design questions we want to attack in Glasgow. None of them is settled — that is the point of the
+two days.
+
+## Why not just use a normal learning platform?
+
+Learning technology has thirty years of standards and platforms behind it, and RSE should reuse every
+bit of it that fits. Three things do not fit.
+
+::: {.why-grid}
+
+::: {.why-card}
+### Notebooks are not documents
+The dominant RSE teaching format is the executable notebook — Jupyter, R Markdown, Quarto. Learning
+management systems assume a self-contained, assessable object: a page, a video, a quiz. A notebook is
+none of these; it is code that must _run_ against a real environment before it means anything.
+:::
+
+::: {.why-card}
+### Compute is part of the exercise
+An RSE assignment is frequently about the machine: a [GPU]{.highlight} kernel, an [MPI]{.highlight}
+job, a [SLURM]{.highlight} batch script, a container that has to build. You cannot embed "submit this
+to the cluster and account for your allocation" in a quiz engine.
+:::
+
+::: {.why-card}
+### Results must leave again
+What a course produces — lessons, worked solutions, learner artefacts — should be publishable as open
+educational resources and as reusable notebooks. Today it is either locked inside a course shell or
+published as a static site with no environment around it.
+:::
+
+:::
+
+## What already exists — and what it does not cover
+
+The offerings closest to what we propose, with their public sources, and the gap each one leaves.
+
+::: {.landscape}
+
+| Environment | What it offers | What it does not cover |
+|---|---|---|
+| **[The Carpentries](https://carpentries.org/)** · Software, Data & Library Carpentry — [GitHub](https://github.com/carpentries)<br>_Cross-disciplinary foundational computing skills_ | Community-maintained open lessons, instructor training, and a global workshop network | Lesson websites plus instructor-led workshops, not a running environment: no accounts, no teams, no artefact submission, no peer assessment |
+| **[RSE-Mentopolis](https://learntech.rwth-aachen.de/go/id/bmahlp/)** · RWTH Aachen / Klaus Tschira Foundation<br>_Sustainable research software: lifecycle models and educational modules_ | The closest in ambition — stakeholder and lifecycle models plus teaching modules for researchers who develop software | A research project anchored in one institution, producing models and modules rather than an environment other universities can deploy and run |
+| **[KODAQS Toolbox](https://kodaqs-toolbox.gesis.org/)** · GESIS / Mannheim / LMU — built on [andrew](https://github.com/GESIS-Methods-Hub/andrew)<br>_Social sciences: data quality across survey, digital behavioural and linked data_ | Curated tutorials with hands-on coding examples in an open-source aggregation hub, alongside the blended KODAQS Academy programme | Single discipline and single topic; teaches data-analysis practice rather than software engineering. The hub aggregates content; it does not host group work |
+| **[iBOTS / iBehave](https://learn.ibots-bonn.de/docs/)** · University of Bonn — [GitHub](https://github.com/ibehave-ibots)<br>_Neuroscience_ | Open, self-paced course tracks from Python and NumPy through to Git and DataLad, delivered as a static site with Jupyter notebooks | Single discipline, and static by construction: no user management, no group formation, no feedback loop, no assessment of what learners produce |
+
+:::
+
+_Landscape as surveyed for the CHARTED dRTP proposal; all links checked 3 August 2026._
+
+Three gaps follow, and they are exactly what the hackathon attacks:
+
+1. _Coverage is siloed._ Where teaching is hands-on, it is tied to one discipline's research process or to one technology stack.
+2. _The loop is open._ None of these closes user management → group formation → artefact submission → structured feedback → peer assessment.
+3. _AI-generated code is unaddressed._ No existing environment lets a team record which parts of generated code a human actually inspected.
+
+We build **on** this material rather than duplicating it: Carpentries lessons and the KODAQS and iBOTS
+course structures are directly reusable inside such an environment.
+
+## The link to learning technology: standards
+
+Underneath the gaps sits a question that predates this proposal and comes out of the RSE curriculum
+discussion: **where should RSE learning material be stored, and in which format?** The material we
+surveyed lives as executable notebooks and R Markdown rendered into static sites — the *andrew*
+aggregator behind the KODAQS Toolbox executes Jupyter and R Markdown inside containers, the iBOTS
+platform is a static site with notebooks — while the learning-object metadata standards from learning
+technology are absent throughout.
+
+::: {.why-grid}
+
+::: {.why-card}
+### IEEE LOM
+Learning Object Metadata describes a resource so it can be found and reused across repositories. It is
+the natural candidate for an RSE OER index — but its educational vocabulary (interactivity type,
+typical learning time, semantic density) was written for documents, not for a code repository plus an
+environment specification.
+:::
+
+::: {.why-card}
+### SCORM / xAPI
+Packaging and run-time tracking for self-contained courseware. SCORM assumes the object runs in the
+browser inside the LMS; an RSE exercise runs in a container, or on a cluster. [xAPI]{.highlight} is the
+more promising half: it can record statements about activity that happens *outside* the platform.
+:::
+
+::: {.why-card}
+### H5P
+Rich interactive content types, open source and widely integrated into LMSs. Excellent for the
+conceptual layer of an RSE lesson; it has no notion of executing learner-supplied code against a real
+toolchain. Where is the boundary between an H5P element and a notebook cell?
+:::
+
+:::
+
+The open question for the hackathon is therefore not which standard to adopt but whether any of them
+is *applicable* to RSE content at all, given that they assume self-contained, assessable objects rather
+than code that must run against a real environment — and, if the answer is "partly", which profile or
+extension covers the rest.
+
+## The link to RSE requirements: real infrastructure
+
+The other half of the problem is the one learning technology never had to solve. An RSE learning
+environment sits on top of research computing infrastructure, which means:
+
+- **Compute back-ends.** Where do examples with [GPU]{.highlight} requirements run? Notebook services
+  such as JupyterHub or BinderHub cover the small cases; teaching CUDA kernels or MPI means a real
+  allocation on an [HPC]{.highlight} system, reached through a batch scheduler (SLURM) or a gateway
+  such as Open OnDemand.
+- **Identity and access.** University HPC access runs on federated identity and project allocations.
+  An environment that hands out accounts has to reconcile that with how clusters actually admit users.
+- **Environments as artefacts.** Containers, lockfiles and module systems are not deployment details
+  here; reproducing the environment *is* part of the learning objective and part of what gets assessed.
+- **Languages.** [Python and R]{.highlight} at minimum, as in *andrew* — but RSE teaching also needs
+  compiled languages: [C++]{.highlight}, Fortran, Julia, and the build systems around them.
+- **Cost and fair use.** Peer assessment means many people running each other's code. Quotas,
+  scheduling and cost control are design constraints from day one, not afterthoughts.
+
+## Open design questions for the two days
+
+1. **Metadata standards.** Is any learning-object metastandard (IEEE LOM, SCORM/xAPI, H5P) applicable to RSE content? What would an RSE application profile have to add?
+2. **Architecture.** Federated, so institutions keep and describe their own material — or component-based, with one platform and pluggable parts?
+3. **Runnable examples.** Which languages must be supported, and in book-style or notebook-style form?
+4. **Compute.** Where do GPU and HPC examples run, and who pays for them?
+5. **Integration.** How does such an environment sit alongside the learning management systems universities already run — and alongside the GitLab/GitHub instances where the code already lives?
+6. **Self-builds.** Several groups have built their own platform. What are their perks, and can they be integrated rather than replaced?
+7. **AI-generated code.** How do you represent, store and assess "this block was generated, and a human inspected it"?
+
+## Bring an answer — or a better question
+
+If you have built one of these, surveyed one of these, or have strong opinions about any of the seven,
+come and say so on day 1.
+
+[Register on Eventbrite](https://www.eventbrite.com/e/rse-hackathon-2026-at-university-of-glasgow-tickets-2000034040655){.cta target="_blank"}
+
+Or join the [Matrix room](https://matrix.to/#/#rse-hackathon-glasgow-:matrix.org) first.
+:::
+
+::: {.organizers}
+[← Back to RSE-hackathon](index.html){.people-link} [People involved →](contacts.html){.people-link}
+:::
+
+:::
+
+<button id="theme-toggle" class="theme-toggle" aria-label="Toggle light and dark mode">● Dark mode</button>
+<script>
+(function () {
+  var root = document.documentElement;
+  var btn = document.getElementById('theme-toggle');
+  var stored = localStorage.getItem('theme-v2');
+  function setDark() {
+    root.setAttribute('data-theme', 'dark');
+    btn.textContent = '☀ Light mode';
+  }
+  function setLight() {
+    root.removeAttribute('data-theme');
+    btn.textContent = '● Dark mode';
+  }
+  if (stored === 'dark') setDark();
+  btn.addEventListener('click', function () {
+    var isDark = root.getAttribute('data-theme') === 'dark';
+    if (isDark) {
+      setLight();
+      localStorage.setItem('theme-v2', 'light');
+    } else {
+      setDark();
+      localStorage.setItem('theme-v2', 'dark');
+    }
+  });
+})();
+</script>
