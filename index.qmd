@@ -50,14 +50,10 @@ as notebooks and as [standards-described learning objects]{.highlight}, not lock
 
 :::
 
-### Two challenges for the two days
+### The challenge for the two days
 
-_Challenge 1 — the learning-environment thin slice._ In two days, a minimal working example of the
-pipeline: simple user management, group formation, a feedback loop, and peer assessment for uploaded
-RSE artefacts.
-
-_Challenge 2 — inspecting AI-generated code._ A tool that lets a team record which parts of
-generated code a human actually looked at. No existing learning environment addresses this at all.
+A minimal working example of the pipeline: simple user management, group formation, a feedback loop,
+and peer assessment for uploaded RSE artefacts.
 
 We use a thin-slice approach: rather than spending the two days building a complete database or UI,
 we connect just enough of each layer to show a user interacting with a real, working feature — alongside

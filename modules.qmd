@@ -135,7 +135,6 @@ can be built from — and for a proposal, a well-scoped set of these is worth mo
 - **M7** as a draft schema, with two or three real modules described in it and validated by a script
 - **M1** as a working service against a test cohort, since the algorithms are known and the problem is closed
 - A specification of the review assignment in **M3**, and a prototype against mock data
-- An annotation schema for AI-generated code: which blocks were generated, who inspected them, what was checked
 :::
 
 ::: {.why-card}
