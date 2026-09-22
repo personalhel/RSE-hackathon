@@ -9,7 +9,7 @@ pagetitle: "RSE Hackathon 2026"
 
 # RSE-hackathon
 
-Two days of building research software engineering tools in **Glasgow**.
+Two days of building an **open RSE learning environment** — and other research software engineering tools — in **Glasgow**.
 
 [Register on Eventbrite](https://www.eventbrite.com/e/rse-hackathon-2026-at-university-of-glasgow-tickets-2000034040655){.cta target="_blank"}
 :::
@@ -20,9 +20,49 @@ each field reinvents tooling, conventions, and teaching material, so we will con
 — shared, reusable building blocks that work across the social sciences,
 life sciences, and the humanities rather than within a single silo.
 
-In two days, the team will produce an overall system design (such as a UML diagram) and a working end-to-end prototype.
-We will use a thin-slice approach: rather than spending time building a complete database or UI,
-we will connect just enough of each layer to show a user interacting with a real, working feature.
+## The flagship idea: an RSE learning environment
+
+RSE teaching material is plentiful and much of it is excellent. A shared environment in which learners
+actually _work_ is not. Oxford RSE's [Gutenberg](https://www.rse.ox.ac.uk/gutenberg) gets furthest —
+open source, with accounts, courses and progress tracking — but the loop between learners is still open
+everywhere: group formation, submitting an artefact, getting feedback, reviewing someone else's code.
+So learners read about good practice instead of practising it on each other's code.
+
+::: {.why-grid}
+
+::: {.why-card}
+### Notebooks, not pages
+Traditional learning environments (Moodle, Canvas, ILIAS) were built for self-contained documents and
+quizzes. They cannot host a Jupyter or R Markdown notebook as a first-class, runnable assignment.
+:::
+
+::: {.why-card}
+### Real compute, not toy examples
+RSE assignments need the machines RSE actually runs on: [GPUs, batch schedulers, HPC allocations,
+containers]{.highlight}. No LMS can embed an exercise that has to be submitted to a cluster.
+:::
+
+::: {.why-card}
+### OER in, OER out
+What learners and instructors produce should leave the platform again as open educational resources —
+as notebooks and as [standards-described learning objects]{.highlight}, not locked in a course shell.
+:::
+
+:::
+
+### The challenge for the two days
+
+A minimal working example of the pipeline: simple user management, group formation, a feedback loop,
+and peer assessment for uploaded RSE artefacts.
+
+We use a thin-slice approach: rather than spending the two days building a complete database or UI,
+we connect just enough of each layer to show a user interacting with a real, working feature — alongside
+an overall system design (UML or similar) to carry the work forward.
+
+[Standards, architecture and the open questions →](learning-environment.html){.people-link}
+
+A breakdown into modules that a single team can take on in two days, and what we think the two days
+can realistically produce, is on the [modules page](modules.html).
 
 Other ideas for projects and prototyping are of course more than welcome!
 
@@ -48,7 +88,7 @@ The coolest module gets an award and stiped.
 :::
 
 ::: {.organizers}
-[People involved →](contacts.html){.people-link}
+[The learning environment →](learning-environment.html){.people-link} [Modules and outputs →](modules.html){.people-link} [People involved →](contacts.html){.people-link}
 :::
 
 :::
@@ -80,4 +120,3 @@ The coolest module gets an award and stiped.
   });
 })();
 </script>
-

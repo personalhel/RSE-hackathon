@@ -10,6 +10,7 @@ $link-color: #ff6b8a;
   --accent: #ff6b8a;
   --cta-fg: #ffffff;
   --logo-bg: #ffffff;
+  --rule: rgba(0, 0, 0, 0.18);
   color-scheme: light;
 }
 
@@ -19,6 +20,7 @@ $link-color: #ff6b8a;
   --accent: #ff6b8a;
   --cta-fg: #000000;
   --logo-bg: #ff6b8a;
+  --rule: rgba(255, 255, 255, 0.22);
   color-scheme: dark;
 }
 
@@ -259,4 +261,139 @@ main.content {
 .contact-card a {
   color: #000000;
   text-decoration: underline;
+}
+
+/* ---- RSE learning environment ---------------------------------------- */
+
+.hero-body h3 {
+  font-size: 1.05rem;
+  color: var(--fg);
+  margin: 0 0 0.6rem;
+  line-height: 1.35;
+}
+
+.hero-body ul,
+.hero-body ol {
+  font-size: 1.05rem;
+  color: var(--fg);
+  opacity: 0.85;
+  line-height: 1.6;
+  margin: 0 0 1.25rem;
+  padding-left: 1.25rem;
+}
+
+.hero-body li {
+  margin-bottom: 0.6rem;
+}
+
+.hero-body a.people-link {
+  display: inline-block;
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  margin: 0.5rem 0 1.5rem;
+}
+
+.hero-body a.people-link:hover {
+  text-decoration: underline;
+}
+
+.organizers a.people-link + a.people-link {
+  margin-left: 1.5rem;
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.why-card {
+  border: 1px solid var(--accent);
+  border-radius: 10px;
+  padding: 1.1rem 1.2rem;
+}
+
+.why-card h3 {
+  color: var(--accent);
+  font-size: 1rem;
+  letter-spacing: 0.01em;
+}
+
+.why-card p {
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.landscape {
+  margin: 1.5rem 0 0.75rem;
+  overflow-x: auto;
+}
+
+.landscape table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.landscape th {
+  text-align: left;
+  color: var(--accent);
+  font-weight: 600;
+  border-bottom: 2px solid var(--accent);
+  padding: 0.6rem 0.75rem;
+  vertical-align: bottom;
+}
+
+.landscape td {
+  color: var(--fg);
+  opacity: 0.85;
+  border-bottom: 1px solid var(--rule);
+  padding: 0.75rem;
+  vertical-align: top;
+}
+
+.landscape tr:last-child td {
+  border-bottom: none;
+}
+
+.landscape td:first-child {
+  min-width: 15rem;
+  opacity: 1;
+}
+
+.phases td:first-child {
+  min-width: 9rem;
+  white-space: nowrap;
+}
+
+.why-card ul {
+  font-size: 0.95rem;
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.why-card li {
+  margin-bottom: 0.5rem;
+}
+
+.why-card li:last-child {
+  margin-bottom: 0;
+}
+
+.landscape a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.landscape a:hover {
+  text-decoration: underline;
+}
+
+.hero-body .cta {
+  display: inline-block;
+  margin: 0.5rem 0 1rem;
 }

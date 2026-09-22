@@ -1,0 +1,195 @@
+---
+pagetitle: "Modules and outputs · RSE Hackathon 2026"
+---
+
+::: {.hero}
+
+::: {.hero-top}
+[← Back to RSE-hackathon](index.html){.back-link}
+
+# Modules, and what two days can produce
+:::
+
+::: {.hero-body}
+A learning environment is far too much to build in a hackathon. It is also not a monolith. If you take
+a process model of the course it has to support, the environment decomposes into modules with clear
+inputs, outputs and interfaces — and then a small team can build *one* of them in two days without
+waiting for the rest.
+
+The decomposition below is taken from a process model of research-based learning developed at
+Potsdam and implemented in the FL-Trail prototype
+([Dehne 2021](https://doi.org/10.25932/publishup-49789)), which models self-organised learning as a
+sequence of phases and identifies group formation, feedback, reflection and peer assessment as the
+sub-processes worth supporting with software. The mapping onto self-regulated, project-based
+**software engineering** teaching is nearly one-to-one, for a simple reason: an RSE course already
+*is* a research project carried out in teams.
+
+## The process model, mapped onto an RSE course
+
+::: {.landscape .phases}
+
+| Phase | In research-based learning | In a project-based RSE course | What software should do here |
+|---|---|---|---|
+| **1 · Topic finding** | Formulating a question, or choosing one inside a set frame | Choosing the codebase, dataset, issue or method to work on | Nothing. Search engines and the instructor cover this; do not build it |
+| **2 · Group formation** | Forming the research team | Forming the dev team | **The strongest case for software.** Group formation is an optimisation problem; an algorithm solves it without bias and at course scale, either homogeneously (by shared interest or learning goal) or heterogeneously (by complementary traits) |
+| **3 · Concept design** | A dossier: question, state of the art, method, work plan | A design document: requirements, architecture sketch, test plan, data management, licence | Structured annotation of the document, plus an engine that decides *who reviews whom, and when*, so that every team is guaranteed feedback |
+| **4 · Execution** | Carrying out the study | The sprint itself | Reflection anchored in the work — a learning log tied to commits and milestones — and the execution back-end the code runs on |
+| **5 · Presentation** | Presenting results to peers | Demo, code walkthrough, release | Live presentation accompanied by structured peer assessment |
+| **6 · Write-up** | The project report | README, documentation, a software paper | Nothing. This is Word, Quarto and Overleaf territory |
+| **(Assessment)** | Peer review, grading | Peer code review, then a mark | A co-assessment procedure that lets learner judgements enter the grade in a defensible way |
+
+:::
+
+Two things follow that are easy to miss. First, software is worth building in **four** of the seven
+rows, not all of them — a hackathon that starts by picking one of those four starts in the right
+place. Second, review sits in two different places: in research, peer review comes in the
+*middle* and gates the presentation; in teaching, grading traditionally comes at the *end*. An RSE
+course wants both, and that is precisely what makes code review teachable — the same artefact is
+reviewed formatively in phase 3–4 and assessed summatively at the end.
+
+## Candidate modules for the two days
+
+Each of these is a self-contained module with an interface an environment could call. None of them
+requires the rest to exist first.
+
+::: {.why-grid}
+
+::: {.why-card}
+### M1 · Group formation
+Given participants and their interests, topics or self-reported strengths, return teams. Two
+strategies, chosen by the instructor: homogeneous by shared learning goal, heterogeneous by
+complementary profile — plus manual override, which must always remain available. A service with one
+call, no UI needed, testable against synthetic cohorts of 200 in the room.
+:::
+
+::: {.why-card}
+### M2 · Artefact submission
+In RSE the submitted artefact is a **repository at a commit**, not an uploaded file. A module that
+takes a Git URL plus a ref, snapshots it, records the environment spec, and hands back a stable
+identifier. Small, unglamorous, and everything downstream depends on it.
+:::
+
+::: {.why-card}
+### M3 · Peer code review
+The assignment problem first — who reviews whose code, how many reviews each, ensuring nobody is
+left without feedback — then a review surface with comments anchored to lines and to the rubric.
+Forge review tools do the anchoring already; what they do not do is *assign* reviews pedagogically or
+report back to a course.
+:::
+
+::: {.why-card}
+### M4 · Peer and co-assessment
+A rubric plus an aggregation procedure that combines learner marks with the instructor mark into one
+grade, with the weighting explicit and outliers visible. The hard part is not the interface, it is a
+procedure teachers will actually stand behind in an exam board.
+:::
+
+::: {.why-card}
+### M5 · Reflection log
+A lightweight portfolio bound to the work: reflection prompts triggered by commits, milestones or a
+failed build, with tags tied to the learning goals of the course. This is where a run-of-the-mill
+e-portfolio becomes RSE-specific — the log knows what the repository did.
+:::
+
+::: {.why-card}
+### M6 · Execution back-end
+The piece nobody has: a defined contract for "run this learner artefact in this environment and
+return the result" with one reference implementation — a container runner, JupyterHub or BinderHub —
+and a clear statement of what it would take to put [SLURM]{.highlight} or Open OnDemand behind the
+same interface.
+:::
+
+::: {.why-card}
+### M7 · Module descriptor
+One YAML file describing a teaching module: learning outcomes, prerequisites, languages, required
+compute, licence, source repository. Effectively an RSE application profile of
+[IEEE LOM]{.highlight}, cut down to what is actually known and actually used, with the fields that
+learning technology never needed — hardware, toolchain, data.
+:::
+
+:::
+
+If you want the shortest path to something demonstrable: **M1 → M2 → M3** is one coherent thin slice
+of the learner loop — teams are formed, each team submits a repository, each team reviews the code of
+another team — and it is the half of the loop that
+[no existing platform closes](learning-environment.html), Gutenberg included.
+
+## What the hackathon can realistically produce
+
+Two days, a room of people who mostly have not worked together before, and no shared codebase at the
+start. That rules a deployed platform out. It does not rule out artefacts that a follow-on project
+can be built from — and for a proposal, a well-scoped set of these is worth more than a demo.
+
+::: {.why-grid}
+
+::: {.why-card}
+### Certain
+- A written requirements and landscape document: what exists, what is missing, what an RSE learning environment has to do
+- A public repository with the design decisions recorded, issues filed and a roadmap
+- A decision on build-on-Gutenberg versus build-new, with the reasoning written down
+- A list of institutions and people willing to carry it on — the consortium for the next proposal
+:::
+
+::: {.why-card}
+### Plausible
+- **M7** as a draft schema, with two or three real modules described in it and validated by a script
+- **M1** as a working service against a test cohort, since the algorithms are known and the problem is closed
+- A specification of the review assignment in **M3**, and a prototype against mock data
+:::
+
+::: {.why-card}
+### Not in two days
+- A deployed, multi-tenant platform with real accounts
+- Anything actually running on an HPC system, including allocations and identity
+- A finished curriculum, or a complete set of modules
+- A validated assessment procedure — validation takes a cohort and a semester, not a weekend
+:::
+
+:::
+
+The honest framing is this: the hackathon produces a **specification, a thin slice and a
+consortium**. The specification is what makes the follow-on fundable, the thin slice is what makes it
+credible, and the consortium is what makes it happen.
+
+## Pick a module before you arrive
+
+Come with one of the seven in mind — or with a good argument that the decomposition is wrong.
+
+[Register on Eventbrite](https://www.eventbrite.com/e/rse-hackathon-2026-at-university-of-glasgow-tickets-2000034040655){.cta target="_blank"}
+
+Or join the [Matrix room](https://matrix.to/#/#rse-hackathon-glasgow-:matrix.org) first.
+:::
+
+::: {.organizers}
+[← Back to RSE-hackathon](index.html){.people-link} [The environment →](learning-environment.html){.people-link} [People involved →](contacts.html){.people-link}
+:::
+
+:::
+
+<button id="theme-toggle" class="theme-toggle" aria-label="Toggle light and dark mode">● Dark mode</button>
+<script>
+(function () {
+  var root = document.documentElement;
+  var btn = document.getElementById('theme-toggle');
+  var stored = localStorage.getItem('theme-v2');
+  function setDark() {
+    root.setAttribute('data-theme', 'dark');
+    btn.textContent = '☀ Light mode';
+  }
+  function setLight() {
+    root.removeAttribute('data-theme');
+    btn.textContent = '● Dark mode';
+  }
+  if (stored === 'dark') setDark();
+  btn.addEventListener('click', function () {
+    var isDark = root.getAttribute('data-theme') === 'dark';
+    if (isDark) {
+      setLight();
+      localStorage.setItem('theme-v2', 'light');
+    } else {
+      setDark();
+      localStorage.setItem('theme-v2', 'dark');
+    }
+  });
+})();
+</script>
