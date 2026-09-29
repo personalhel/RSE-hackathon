@@ -1,7 +1,6 @@
 # Mailing-Vorlage: FG Bildungstechnologien (GI)
 
 Anlass: Einladung zum RSE-Hackathon 2026, 26./27. November 2026, University of Glasgow.
-Platzhalter in `[…]` vor dem Versand ersetzen bzw. löschen.
 
 ---
 
@@ -9,69 +8,46 @@ Platzhalter in `[…]` vor dem Versand ersetzen bzw. löschen.
 
 Liebe Kolleginnen und Kollegen,
 
-als Fachgruppe Bildungstechnologien haben Sie genau die Perspektive, die uns bei
-folgendem Vorhaben fehlt — deshalb diese Einladung.
+am **26. und 27. November 2026** bauen wir an der **University of Glasgow** in
+einem zweitägigen Hackathon prototypisch eine **offene Lernumgebung für Research
+Software Engineering (RSE)** — gemeinsam mit de-RSE und der University of
+Glasgow.
 
-Am **26. und 27. November 2026** findet an der **University of Glasgow** ein
-zweitägiger **RSE-Hackathon** statt. Gemeinsam mit de-RSE, der Gesellschaft für
-Informatik und der University of Glasgow wollen wir dort prototypisch eine
-**offene Lernumgebung für Research Software Engineering (RSE)** bauen — und
-weitere Werkzeuge, die in der Ausbildung forschungsnaher Softwareentwicklung
-fehlen.
+Lehrmaterial zu RSE gibt es reichlich. Was fehlt, ist eine Umgebung, in der
+Lernende tatsächlich arbeiten: Moodle, ILIAS und Canvas können ein Jupyter- oder
+R-Notebook nicht als lauffähige Aufgabe einbinden, keine Abgabe an ein Cluster
+übergeben und Ergebnisse nicht als OER wieder herauslassen. Auch beim
+weitesten entwickelten Ansatz, [Gutenberg](https://www.rse.ox.ac.uk/gutenberg)
+von Oxford RSE, bleibt die Schleife zwischen den Lernenden offen —
+Gruppenbildung, Abgabe, Feedback, Code-Review. Genau daran arbeiten wir in
+Glasgow, und dafür fehlt uns Ihre Perspektive.
 
-**Warum das eine Bildungstechnologie-Frage ist**
-
-Lehrmaterial zu RSE gibt es reichlich, und viel davon ist gut. Was fehlt, ist
-eine Umgebung, in der Lernende tatsächlich *arbeiten*. Die etablierten
-Plattformen (Moodle, ILIAS, Canvas) sind für abgeschlossene Dokumente und Tests
-gebaut und stoßen hier an drei Grenzen:
-
-- Ein Jupyter- oder R-Markdown-Notebook lässt sich nicht als lauffähige Aufgabe
-  einbinden, sondern nur als Datei anhängen.
-- RSE-Aufgaben brauchen echte Infrastruktur — GPUs, Batch-Systeme,
-  HPC-Kontingente, Container. Kein LMS kann eine Abgabe an ein Cluster
-  übergeben.
-- Was in der Lehre entsteht, sollte die Plattform als OER wieder verlassen
-  können: als Notebook und als standardbeschriebenes Lernobjekt, nicht
-  eingeschlossen in einen Kursraum.
-
-Am weitesten kommt derzeit [Gutenberg](https://www.rse.ox.ac.uk/gutenberg) von
-Oxford RSE (Open Source, mit Accounts, Kursen und Fortschrittsverfolgung). Offen
-bleibt überall die Schleife zwischen den Lernenden: Gruppenbildung, Abgabe eines
-Artefakts, Feedback, Review des Codes der anderen. Genau daran wollen wir in
-Glasgow arbeiten — an einem Minimalbeispiel dieser Kette samt tragfähigem
-Systemdesign.
-
-**Wer gemeint ist**
-
-Codeaffine Menschen aus der Lehre und aus dem RSE-Umfeld: Forschende, die
-Software bauen *und* Workshops oder Kurse dazu geben; Menschen, die
-Bildungstechnologie selbst entwickeln und betreiben (LMS-Integrationen,
-Standards, Autograding, JupyterHub); Lehrende, die
-softwareentwicklungsähnliche Projektarbeit betreuen; sowie alle, die mit
-Notebooks und R unterrichten. Der Idealfall für diese zwei Tage ist eine gute
-Mischung aus Lehrenden und bauenden RSEs — und aus deutscher und britischer
-Community.
-
-**Organisatorisches**
+Eingeladen sind codeaffine Menschen aus Lehre und RSE-Umfeld: Entwickelnde und
+Betreibende von Bildungstechnologie, Lehrende mit
+softwareentwicklungsähnlicher Projektarbeit und alle, die mit Notebooks oder R
+unterrichten.
 
 - **Termin:** 26.–27. November 2026, jeweils 09:00–17:00 Uhr
-- **Ort:** advanced Research Centre, University of Glasgow, 11 Chapel Lane, G11 6EW
-- **Ablauf:** Tag 1 Lightning Talks, Teambildung, Prototyping — Tag 2 Showcase
-  und eine Roadmap, mit der die Prototypen weiterleben
-- **Teilnahme auch hybrid** möglich, wenn die Reise nicht passt
-- Für das überzeugendste Modul gibt es eine Auszeichnung
+- **Ort:** advanced Research Centre, University of Glasgow — Teilnahme auch hybrid möglich
 - **Anmeldung:** [Eventbrite](https://www.eventbrite.com/e/rse-hackathon-2026-at-university-of-glasgow-tickets-2000034040655)
-- **Alle Details:** <https://personalhel.github.io/RSE-hackathon/>
-- **Austausch vorab:** [Matrix-Raum](https://matrix.to/#/#rse-hackathon-glasgow-:matrix.org)
+- **Details:** <https://personalhel.github.io/RSE-hackathon/> · [Matrix-Raum](https://matrix.to/#/#rse-hackathon-glasgow-:matrix.org)
 
-Eigene Projekt- und Prototypideen sind ausdrücklich willkommen — die Lernumgebung
-ist unser Aufschlag, nicht die Tagesordnung. Wer ohnehin an ähnlichen Fragen
-arbeitet, kann diese gern mitbringen.
-
-Über Weiterleitung an Interessierte in Ihrem Umfeld freuen wir uns.
+Eigene Projektideen sind ausdrücklich willkommen, und über Weiterleitung an
+Interessierte freuen wir uns.
 
 Herzliche Grüße
-[Vorname Nachname]
-[Rolle, Gesellschaft für Informatik]
-julian.dehne@gi.de
+Julian Dehne
+
+---
+
+Dr. Julian Dehne\
+Arbeitsgruppenleiter Research Software Engineering\
+Gesellschaft für Informatik e.V.\
+Geschäftsstelle Berlin\
+Weydingerstraße 14-16\
+10178 Berlin
+
+Email: julian.dehne@gi.de\
+Website: https://juliandehne.github.io\
+ResearchGate: https://www.researchgate.net/profile/Julian-Dehne\
+ORCID: https://orcid.org/0000-0001-9265-9619
