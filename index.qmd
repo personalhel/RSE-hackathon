@@ -11,7 +11,7 @@ pagetitle: "RSE Hackathon 2026"
 
 Two days of building an **open RSE learning environment** — and other research software engineering tools — in **Glasgow**.
 
-For research software engineers who teach, educational technologists, and anyone who guides students through code.
+For active RSEs, educational technology researchers, and anyone teaching with code — on site or hybrid.
 
 [Register on Eventbrite](https://www.eventbrite.com/e/rse-hackathon-2026-at-university-of-glasgow-tickets-2000034040655){.cta target="_blank"}
 :::
@@ -24,34 +24,34 @@ life sciences, and the humanities rather than within a single silo.
 
 ## Who should come
 
-This is a hackathon for **code-affine people from the RSE world who also teach** — and for the people
-who build the technology they teach with. In the UK that is often a job description in its own right;
-in Germany it is usually a role people grow into. Either way, you are who we are looking for:
+This is a hackathon for **code-affine people from teaching and from the RSE world**. In the UK, teaching
+RSE is often a job description in its own right; in Germany it is usually a role people grow into.
+Either way, you are who we are looking for:
 
 ::: {.why-grid}
 
 ::: {.why-card}
-### RSEs who teach
-Research software engineers with a [teaching or training remit]{.highlight} — you write code for
-research and you run the workshops, courses or summer schools that pass the practice on.
+### Active RSEs
+Research software engineers [who build the real thing]{.highlight} — and who pass the practice on in
+workshops, courses or summer schools, whether or not that part is in your job description.
 :::
 
 ::: {.why-card}
-### Educational technologists
-People who build and run [learning platforms, tooling and infrastructure]{.highlight} — LMS
-integrations, standards, autograding, JupyterHub estates. You know why the last integration hurt.
+### Educational technology researchers
+People who [research, build and run learning technology]{.highlight} — LMS integrations, standards,
+autograding, JupyterHub estates. You know why the last integration hurt, and what the literature says.
 :::
 
 ::: {.why-card}
-### Lecturers supervising SE-like projects
-Instructors who guide students through [software-engineering-shaped project work]{.highlight}:
-version control, code review, teams, deadlines, an artefact at the end that someone has to assess.
+### Lecturers with software projects
+Instructors who guide students through [research-adjacent software projects]{.highlight}: version
+control, code review, teams, deadlines, an artefact at the end that someone has to assess.
 :::
 
 ::: {.why-card}
-### Data science teachers
-Anyone teaching with [notebooks and R]{.highlight} day to day. Your assignments are exactly the
-first-class, runnable artefacts today's learning environments cannot host.
+### Anyone teaching with notebooks or R
+Teaching [with notebooks or R]{.highlight} day to day. Your assignments are exactly the runnable
+artefacts today's learning environments handle so poorly.
 :::
 
 :::
@@ -74,7 +74,7 @@ So learners read about good practice instead of practising it on each other's co
 ::: {.why-card}
 ### Notebooks, not pages
 Traditional learning environments (Moodle, Canvas, ILIAS) were built for self-contained documents and
-quizzes. They cannot host a Jupyter or R Markdown notebook as a first-class, runnable assignment.
+quizzes. None of them embeds a Jupyter or R notebook well as a first-class, runnable assignment.
 :::
 
 ::: {.why-card}
