@@ -11,6 +11,8 @@ pagetitle: "RSE Hackathon 2026"
 
 Two days of building an **open RSE learning environment** — and other research software engineering tools — in **Glasgow**.
 
+For research software engineers who teach, educational technologists, and anyone who guides students through code.
+
 [Register on Eventbrite](https://www.eventbrite.com/e/rse-hackathon-2026-at-university-of-glasgow-tickets-2000034040655){.cta target="_blank"}
 :::
 
@@ -19,6 +21,45 @@ Research Software Engineering (RSE) practice and training remain fragmented alon
 each field reinvents tooling, conventions, and teaching material, so we will conduct an open hackathon to prototype discipline-overarching RSE frameworks
 — shared, reusable building blocks that work across the social sciences,
 life sciences, and the humanities rather than within a single silo.
+
+## Who should come
+
+This is a hackathon for **code-affine people from the RSE world who also teach** — and for the people
+who build the technology they teach with. In the UK that is often a job description in its own right;
+in Germany it is usually a role people grow into. Either way, you are who we are looking for:
+
+::: {.why-grid}
+
+::: {.why-card}
+### RSEs who teach
+Research software engineers with a [teaching or training remit]{.highlight} — you write code for
+research and you run the workshops, courses or summer schools that pass the practice on.
+:::
+
+::: {.why-card}
+### Educational technologists
+People who build and run [learning platforms, tooling and infrastructure]{.highlight} — LMS
+integrations, standards, autograding, JupyterHub estates. You know why the last integration hurt.
+:::
+
+::: {.why-card}
+### Lecturers supervising SE-like projects
+Instructors who guide students through [software-engineering-shaped project work]{.highlight}:
+version control, code review, teams, deadlines, an artefact at the end that someone has to assess.
+:::
+
+::: {.why-card}
+### Data science teachers
+Anyone teaching with [notebooks and R]{.highlight} day to day. Your assignments are exactly the
+first-class, runnable artefacts today's learning environments cannot host.
+:::
+
+:::
+
+You do not need to be all four. The mix is the point: our best case for these two days is a room where
+the [UK and German RSE communities meet the educational-technology people]{.highlight}, and where
+teachers and building RSEs are represented in roughly equal measure — so that whatever we prototype is
+both usable in a real course and buildable beyond the hackathon.
 
 ## The flagship idea: an RSE learning environment
 
