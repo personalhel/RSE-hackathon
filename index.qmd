@@ -11,6 +11,8 @@ pagetitle: "RSE Hackathon 2026"
 
 Two days of building an **open RSE learning environment** — and other research software engineering tools — in **Glasgow**.
 
+For active RSEs, educational technology researchers, and anyone teaching with code — on site or hybrid.
+
 [Register on Eventbrite](https://www.eventbrite.com/e/rse-hackathon-2026-at-university-of-glasgow-tickets-2000034040655){.cta target="_blank"}
 :::
 
@@ -19,6 +21,45 @@ Research Software Engineering (RSE) practice and training remain fragmented alon
 each field reinvents tooling, conventions, and teaching material, so we will conduct an open hackathon to prototype discipline-overarching RSE frameworks
 — shared, reusable building blocks that work across the social sciences,
 life sciences, and the humanities rather than within a single silo.
+
+## Who should come
+
+This is a hackathon for **code-affine people from teaching and from the RSE world**. In the UK, teaching
+RSE is often a job description in its own right; in Germany it is usually a role people grow into.
+Either way, you are who we are looking for:
+
+::: {.why-grid}
+
+::: {.why-card}
+### Active RSEs
+Research software engineers [who build the real thing]{.highlight} — and who pass the practice on in
+workshops, courses or summer schools, whether or not that part is in your job description.
+:::
+
+::: {.why-card}
+### Educational technology researchers
+People who [research, build and run learning technology]{.highlight} — LMS integrations, standards,
+autograding, JupyterHub estates. You know why the last integration hurt, and what the literature says.
+:::
+
+::: {.why-card}
+### Lecturers with software projects
+Instructors who guide students through [research-adjacent software projects]{.highlight}: version
+control, code review, teams, deadlines, an artefact at the end that someone has to assess.
+:::
+
+::: {.why-card}
+### Anyone teaching with notebooks or R
+Teaching [with notebooks or R]{.highlight} day to day. Your assignments are exactly the runnable
+artefacts today's learning environments handle so poorly.
+:::
+
+:::
+
+You do not need to be all four. The mix is the point: our best case for these two days is a room where
+the [UK and German RSE communities meet the educational-technology people]{.highlight}, and where
+teachers and building RSEs are represented in roughly equal measure — so that whatever we prototype is
+both usable in a real course and buildable beyond the hackathon.
 
 ## The flagship idea: an RSE learning environment
 
@@ -33,7 +74,7 @@ So learners read about good practice instead of practising it on each other's co
 ::: {.why-card}
 ### Notebooks, not pages
 Traditional learning environments (Moodle, Canvas, ILIAS) were built for self-contained documents and
-quizzes. They cannot host a Jupyter or R Markdown notebook as a first-class, runnable assignment.
+quizzes. None of them embeds a Jupyter or R notebook well as a first-class, runnable assignment.
 :::
 
 ::: {.why-card}
@@ -82,7 +123,7 @@ Join the conversation on our [Matrix room](https://matrix.to/#/#rse-hackathon-gl
 The coolest module gets an award and stiped.
 
 ::: {.logo-row}
-[![University of Glasgow](uni-glasgow-logo.png)](https://www.gla.ac.uk){.logo-box} [![Gesellschaft für Informatik](GI_R.png)](https://gi.de/en/){.logo-box}
+[![University of Glasgow](uni-glasgow-logo.png)](https://www.gla.ac.uk){.logo-box} [![German Informatics Society (GI)](GI_R.png)](https://gi.de/en/){.logo-box}
 
 <a class="logo-box logo-box-large" href="https://de-rse.org/en/" target="_blank" rel="noopener"><img src="de-RSE-logo-text-colour.svg" alt="de-RSE — Society for Research Software"></a>
 :::

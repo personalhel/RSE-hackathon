@@ -11,15 +11,7 @@ pagetitle: "Contacts · RSE Hackathon 2026"
 :::
 
 ::: {.hero-body}
-## Charité
-
-::: {.contact-card}
-**Magnus Hagdorn** [he/him]{.pronouns}\
-Program Chair\
-[magnus.hagdorn@charite.de](mailto:magnus.hagdorn@charite.de)
-:::
-
-## Gesellschaft für Informatik
+## de-RSE & German Informatics Society (GI)
 
 ::: {.contact-card .has-photo}
 <img class="contact-photo" src="julian-photo.jpg" alt="Julian Dehne">
@@ -40,18 +32,6 @@ Outreach and Marketing Officer, Travel Organization\
 [GitHub](https://github.com/FabiLochner)
 :::
 
-## University of Copenhagen
-
-::: {.contact-card .has-photo}
-<img class="contact-photo" src="helene-photo.jpg" alt="Helene S. Holst">
-
-**Helene S. Holst** [she/her]{.pronouns}\
-Technical Chair, Outreach and Marketing Officer\
-[hel@personalhel.com](mailto:hel@personalhel.com)\
-[personalhel.com](https://personalhel.com)\
-[Codeberg](https://codeberg.org/personalhel) · [GitHub](https://github.com/personalhel)
-:::
-
 ## University of Glasgow
 
 ::: {.contact-card}
@@ -64,6 +44,26 @@ Event Organizer\
 **Jessica Brackenridge** [she/her]{.pronouns}\
 Event Organizer\
 [Jessica.Brackenridge@glasgow.ac.uk](mailto:Jessica.Brackenridge@glasgow.ac.uk)
+:::
+
+## Charité
+
+::: {.contact-card}
+**Magnus Hagdorn** [he/him]{.pronouns}\
+Program Chair\
+[magnus.hagdorn@charite.de](mailto:magnus.hagdorn@charite.de)
+:::
+
+## University of Copenhagen
+
+::: {.contact-card .has-photo}
+<img class="contact-photo" src="helene-photo.jpg" alt="Helene S. Holst">
+
+**Helene S. Holst** [she/her]{.pronouns}\
+Technical Chair, Outreach and Marketing Officer\
+[hel@personalhel.com](mailto:hel@personalhel.com)\
+[personalhel.com](https://personalhel.com)\
+[Codeberg](https://codeberg.org/personalhel) · [GitHub](https://github.com/personalhel)
 :::
 
 :::
