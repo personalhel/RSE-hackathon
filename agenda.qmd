@@ -1,0 +1,62 @@
+---
+pagetitle: "Agenda · RSE Hackathon 2026"
+---
+
+::: {.hero}
+
+::: {.hero-top}
+[Glasgow · 26–27 November 2026]{.eyebrow}
+
+# Agenda
+:::
+
+::: {.hero-body}
+## Day 1 · Thursday, 26 November: Design
+
+::: {.landscape .agenda}
+<table>
+<tr><td>09:00–09:15</td><td>Doors open, coffee</td></tr>
+<tr class="session"><td colspan="2">Session 1: What is this about?</td></tr>
+<tr><td>09:15–09:40</td><td>Welcome: RSE teaching experiences (Julian Dehne)</td></tr>
+<tr><td>09:40–10:20</td><td><strong>Keynote Nicholas Del Grosso:</strong> RSE teaching structures, with Q&amp;A</td></tr>
+<tr><td>10:20–10:30</td><td>Coffee break</td></tr>
+<tr><td>10:30–12:00</td><td>Tutorial: how we organise our teams (git, submodules, GitHub, the repository, the wiki)</td></tr>
+<tr><td>12:00–13:30</td><td>Lunch</td></tr>
+<tr class="session"><td colspan="2">Session 2: What solutions exist?</td></tr>
+<tr><td>13:30–14:30</td><td><strong>Keynote Robert Chatley:</strong> Teaching technologies, with Q&amp;A</td></tr>
+<tr><td>14:30–15:00</td><td>Individual work on pitches (Miro board)</td></tr>
+<tr><td>15:00–15:15</td><td>Coffee break</td></tr>
+<tr class="session"><td colspan="2">Session 3: What should we try?</td></tr>
+<tr><td>15:15–16:15</td><td>Pitches and brainstorming: collecting and clustering ideas</td></tr>
+<tr><td>16:15–17:00</td><td>Team formation</td></tr>
+<tr><td>17:00–18:00</td><td>Team activity 1: getting started and technical onboarding</td></tr>
+<tr><td>18:00–18:30</td><td>Setting up the teams in the GitHub wiki</td></tr>
+<tr><td>18:30</td><td>Dinner</td></tr>
+</table>
+:::
+
+## Day 2 · Friday, 27 November: Build
+
+::: {.landscape .agenda}
+<table>
+<tr><td>09:00–09:15</td><td>Doors open, coffee</td></tr>
+<tr class="session"><td colspan="2">Session 1: Work session A</td></tr>
+<tr><td>09:15–09:45</td><td>Lightning talks: three demos of things we have made for RSE teaching</td></tr>
+<tr><td>09:45–10:30</td><td>Team activity 2 (optional)</td></tr>
+<tr><td>10:30–10:45</td><td>Coffee break</td></tr>
+<tr><td>10:45–12:15</td><td>Team activity 2</td></tr>
+<tr><td>12:15–13:00</td><td>Team presentations; recruiting and regrouping teams</td></tr>
+<tr><td>13:00–14:00</td><td>Lunch</td></tr>
+<tr class="session"><td colspan="2">Session 2: Work session B</td></tr>
+<tr><td>14:00–15:00</td><td>Team activity 3</td></tr>
+<tr><td>15:00–15:15</td><td>Coffee break</td></tr>
+<tr><td>15:15–16:15</td><td>Team activity 3</td></tr>
+<tr class="session"><td colspan="2">Session 3: Fusion</td></tr>
+<tr><td>16:15–17:00</td><td>Team presentations</td></tr>
+<tr><td>17:00–18:00</td><td>Merging session: bringing the team repositories together</td></tr>
+<tr><td>18:00–18:30</td><td>Best Artefact Award</td></tr>
+</table>
+:::
+:::
+
+:::

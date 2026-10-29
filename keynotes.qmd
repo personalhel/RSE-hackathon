@@ -1,0 +1,48 @@
+---
+pagetitle: "Keynotes · RSE Hackathon 2026"
+---
+
+::: {.hero}
+
+::: {.hero-top}
+[Glasgow · 26–27 November 2026]{.eyebrow}
+
+# Keynotes
+:::
+
+::: {.hero-body}
+::: {.why-grid}
+
+::: {.why-card}
+### Robert Chatley
+_Imperial College London_
+
+Professor of Teaching in Software Engineering and Director of Software Engineering Practice at
+Imperial's Department of Computing, where he leads the [Computing EdTech Lab]{.highlight}, which builds
+open-source tools for hands-on learning. Before returning to academia he spent many years in industry as
+an engineer, engineering manager, consultant and trainer. His work covers software engineering education,
+agile development, continuous delivery and cloud-native architecture.
+
+**Keynote (Day 1, 13:30):** Teaching technologies
+
+[doc.ic.ac.uk/~rbc](https://www.doc.ic.ac.uk/~rbc/){target="_blank"}
+:::
+
+::: {.why-card}
+### Nicholas Del Grosso
+_University of Bonn_
+
+Leads the [iBOTS platform]{.highlight} (iBehave Open Technology Support) at the University of Bonn,
+providing programming support, training and consulting to more than 40 neuroscience labs across Bonn,
+Cologne, Aachen and Jülich. He holds a PhD in neuroscience from LMU Munich and teaches scientific software
+development, collaborative development practice and reproducible workflows in Python.
+
+**Keynote (Day 1, 09:40):** RSE teaching structures
+
+[nickdelgrosso.github.io](https://nickdelgrosso.github.io/HelmholtzAI-TrainingSeries2025/about){target="_blank"}
+:::
+
+:::
+:::
+
+:::

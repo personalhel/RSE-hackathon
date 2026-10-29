@@ -108,19 +108,15 @@ can realistically produce, is on the [modules page](modules.html).
 Other ideas for projects and prototyping are of course more than welcome!
 
 ## Practical information
-The hackathon takes place at [University of Glasgow, Scotland]{.highlight} on the 26th and 27th of November, 2026 at the [advanced Research Centre]{.highlight}
-at _University of Glasgow, 11 Chapel Lane, G11 6EW_.
-
-_Day 1:_ lightning talks framing the challenges, team formation, and prototyping (09.00 to 17.00)
-
-_Day 2:_ build a short showcase and a community roadmap for carrying winning prototypes forward. (09.00 to 17.00)
+The hackathon takes place at [University of Glasgow, Scotland]{.highlight} on the 26th and 27th of November, 2026 at the [Advanced Research Centre]{.highlight}
+at _University of Glasgow, 11 Chapel Lane, G11 6EW_. Both days run from 09:00 to 18:30; coffee and lunch are provided.
 
 Hybrid attendance for remote contributors is also possible.
 
 Join the conversation on our [Matrix room](https://matrix.to/#/#rse-hackathon-glasgow-:matrix.org).
 :::
 
-The coolest module gets an award and stiped.
+The best artefact of the two days receives the Best Artefact Award.
 
 ::: {.logo-row}
 [![University of Glasgow](uni-glasgow-logo.png)](https://www.gla.ac.uk){.logo-box} [![German Informatics Society (GI)](GI_R.png)](https://gi.de/en/){.logo-box}
