@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.18">
+<meta name="generator" content="quarto-1.10.19">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -41,10 +41,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-2b115005180441c5bd41fbf93c7d2a2f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-1c7f15872f7267dc4257825e3ec7c3ca.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -86,6 +86,24 @@ ul.task-list li input[type="checkbox"] {
     
 <!-- main -->
 <main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<nav class="site-nav" aria-label="Site">
+  <a class="site-nav-title" href="index.html">RSE Hackathon 2026</a>
+  <a href="index.html">Overview</a>
+  <a href="preparation.html">Preparation</a>
+  <a href="keynotes.html">Keynotes</a>
+  <a href="agenda.html">Agenda</a>
+  <a href="learning-environment.html">Learning environment</a>
+  <a href="modules.html">Modules</a>
+  <a href="contacts.html">People</a>
+</nav>
+<script>
+(function () {
+  var page = location.pathname.split('/').pop() || 'index.html';
+  document.querySelectorAll('.site-nav a:not(.site-nav-title)').forEach(function (a) {
+    if (a.getAttribute('href') === page) a.setAttribute('aria-current', 'page');
+  });
+})();
+</script>
 
 
 
@@ -121,7 +139,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="what-already-exists-and-what-it-does-not-cover" class="level2">
 <h2 class="anchored" data-anchor-id="what-already-exists-and-what-it-does-not-cover">What already exists — and what it does not cover</h2>
-<p>The offerings closest to what we propose, with their public sources, and the gap each one leaves.</p>
+<p>The offerings closest to ours, and the gap each one leaves.</p>
 <div class="landscape">
 <table class="caption-top table">
 <thead>
@@ -133,29 +151,29 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong><a href="https://www.rse.ox.ac.uk/gutenberg">Gutenberg</a></strong> · Oxford RSE, for <a href="http://www.universe-hpc.ac.uk/">UNIVERSE-HPC</a> — <a href="https://github.com/OxfordRSE/gutenberg">GitHub</a>, running at <a href="https://train.rse.ox.ac.uk/">train.rse.ox.ac.uk</a><br><em>RSE and HPC training, undergraduate through to CPD</em></td>
-<td>The closest thing that exists: an open-source (BSD-3) Next.js/PostgreSQL platform with user accounts, course enrolment, pathway-based syllabi, and module completion plus exercise results reported back to course leaders. Material stays as Markdown in separate CC-licensed repositories, so content and engine are decoupled and any institution can self-host</td>
-<td>Closes the instructor-facing half of the loop only: no group formation, no submission of a learner-built artefact, no peer assessment. Exercises are Markdown callouts and no execution back-end is part of the platform — so even in an HPC curriculum, learners run the code somewhere else. No learning-object metadata</td>
+<td><strong><a href="https://www.rse.ox.ac.uk/gutenberg">Gutenberg</a></strong> · Oxford RSE for <a href="http://www.universe-hpc.ac.uk/">UNIVERSE-HPC</a> — <a href="https://github.com/OxfordRSE/gutenberg">GitHub</a>, live at <a href="https://train.rse.ox.ac.uk/">train.rse.ox.ac.uk</a><br><em>RSE and HPC training</em></td>
+<td>The closest thing that exists: BSD-3 platform, self-hostable, with accounts, enrolment, pathway syllabi and results for course leaders. Content lives as Markdown in separate CC-licensed repos</td>
+<td>The learner half of the loop: no group formation, submission or peer assessment. No execution back-end, no learning-object metadata</td>
 </tr>
 <tr class="even">
-<td><strong><a href="https://carpentries.org/">The Carpentries</a></strong> · Software, Data &amp; Library Carpentry — <a href="https://github.com/carpentries">GitHub</a><br><em>Cross-disciplinary foundational computing skills</em></td>
-<td>Community-maintained open lessons, instructor training, and a global workshop network</td>
-<td>Lesson websites plus instructor-led workshops, not a running environment: no accounts, no teams, no artefact submission, no peer assessment</td>
+<td><strong><a href="https://carpentries.org/">The Carpentries</a></strong> · Software, Data &amp; Library Carpentry — <a href="https://github.com/carpentries">GitHub</a><br><em>Foundational computing skills</em></td>
+<td>Open community lessons, instructor training, a global workshop network</td>
+<td>Lessons and workshops, not a running environment: no accounts, teams, submission or assessment</td>
 </tr>
 <tr class="odd">
-<td><strong><a href="https://learntech.rwth-aachen.de/go/id/bmahlp/">RSE-Mentopolis</a></strong> · RWTH Aachen / Klaus Tschira Foundation<br><em>Sustainable research software: lifecycle models and educational modules</em></td>
-<td>The closest in ambition — stakeholder and lifecycle models plus teaching modules for researchers who develop software</td>
-<td>A research project anchored in one institution, producing models and modules rather than an environment other universities can deploy and run</td>
+<td><strong><a href="https://learntech.rwth-aachen.de/go/id/bmahlp/">RSE-Mentopolis</a></strong> · RWTH Aachen / Klaus Tschira Foundation<br><em>Sustainable research software</em></td>
+<td>The closest in ambition: lifecycle and stakeholder models plus teaching modules</td>
+<td>Models and modules from one institution, not software others can deploy</td>
 </tr>
 <tr class="even">
-<td><strong><a href="https://kodaqs-toolbox.gesis.org/">KODAQS Toolbox</a></strong> · GESIS / Mannheim / LMU — built on <a href="https://github.com/GESIS-Methods-Hub/andrew">andrew</a><br><em>Social sciences: data quality across survey, digital behavioural and linked data</em></td>
-<td>Curated tutorials with hands-on coding examples in an open-source aggregation hub, alongside the blended KODAQS Academy programme</td>
-<td>Single discipline and single topic; teaches data-analysis practice rather than software engineering. The hub aggregates content; it does not host group work</td>
+<td><strong><a href="https://kodaqs-toolbox.gesis.org/">KODAQS Toolbox</a></strong> · GESIS / Mannheim / LMU — built on <a href="https://github.com/GESIS-Methods-Hub/andrew">andrew</a><br><em>Social sciences: data quality</em></td>
+<td>Hands-on tutorials in an open aggregation hub, plus the blended KODAQS Academy</td>
+<td>One discipline and topic, data analysis over software engineering; no group work</td>
 </tr>
 <tr class="odd">
 <td><strong><a href="https://learn.ibots-bonn.de/docs/">iBOTS / iBehave</a></strong> · University of Bonn — <a href="https://github.com/ibehave-ibots">GitHub</a><br><em>Neuroscience</em></td>
-<td>Open, self-paced course tracks from Python and NumPy through to Git and DataLad, delivered as a static site with Jupyter notebooks</td>
-<td>Single discipline, and static by construction: no user management, no group formation, no feedback loop, no assessment of what learners produce</td>
+<td>Self-paced tracks from Python and NumPy to Git and DataLad, as a static notebook site</td>
+<td>One discipline, static: no accounts, groups, feedback or assessment</td>
 </tr>
 </tbody>
 </table>
