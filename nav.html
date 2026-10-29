@@ -1,0 +1,18 @@
+<nav class="site-nav" aria-label="Site">
+  <a class="site-nav-title" href="index.html">RSE Hackathon 2026</a>
+  <a href="index.html">Overview</a>
+  <a href="preparation.html">Preparation</a>
+  <a href="keynotes.html">Keynotes</a>
+  <a href="agenda.html">Agenda</a>
+  <a href="learning-environment.html">Learning environment</a>
+  <a href="modules.html">Modules</a>
+  <a href="contacts.html">People</a>
+</nav>
+<script>
+(function () {
+  var page = location.pathname.split('/').pop() || 'index.html';
+  document.querySelectorAll('.site-nav a:not(.site-nav-title)').forEach(function (a) {
+    if (a.getAttribute('href') === page) a.setAttribute('aria-current', 'page');
+  });
+})();
+</script>

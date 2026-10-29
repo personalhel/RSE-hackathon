@@ -1,0 +1,21 @@
+---
+pagetitle: "Preparation · RSE Hackathon 2026"
+---
+
+::: {.hero}
+
+::: {.hero-top}
+[Glasgow · 26–27 November 2026]{.eyebrow}
+
+# Preparation
+:::
+
+::: {.hero-body}
+Curious what this can look like in practice? Magnus' screencast [GitLab Learning Scripts]{.highlight}
+is a nice example of hands-on, repository-based teaching, and a good warm-up if you have a few minutes
+before Glasgow.
+
+{{< video https://youtu.be/_EzCXV4UT9Q title="GitLab Learning Scripts" >}}
+:::
+
+:::

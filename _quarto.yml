@@ -2,6 +2,9 @@ project:
   type: website
   render:
     - index.qmd
+    - preparation.qmd
+    - keynotes.qmd
+    - agenda.qmd
     - learning-environment.qmd
     - modules.qmd
     - contacts.qmd
@@ -15,3 +18,4 @@ format:
     page-layout: full
     toc: false
     title-block-banner: false
+    include-before-body: nav.html
