@@ -21,11 +21,11 @@
     "text": "University of Glasgow\n\nBernhard Reinsberg he/him\nEvent Organizer\nBernhard.Reinsberg@glasgow.ac.uk\n\n\nJessica Brackenridge she/her\nEvent Organizer\nJessica.Brackenridge@glasgow.ac.uk"
   },
   {
-    "objectID": "contacts.html#charité",
-    "href": "contacts.html#charité",
+    "objectID": "contacts.html#university-of-bonn-ibots",
+    "href": "contacts.html#university-of-bonn-ibots",
     "title": "Organizers",
-    "section": "Charité",
-    "text": "Charité\n\nMagnus Hagdorn he/him\nProgram Chair\nmagnus.hagdorn@charite.de"
+    "section": "University of Bonn (iBOTS)",
+    "text": "University of Bonn (iBOTS)\n\nOle Bialas\nEvent Organizer\nbialas@uni-bonn.de\niBOTS team"
   },
   {
     "objectID": "contacts.html#university-of-copenhagen",
@@ -88,7 +88,7 @@
     "href": "keynotes.html",
     "title": "Keynotes",
     "section": "",
-    "text": "RSE Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  People\n\n\n\n\n\n\n\n\nGlasgow · 26–27 November 2026\n\nKeynotes\n\n\n\n\n\nRobert Chatley\nImperial College London\nProfessor of Teaching in Software Engineering and Director of Software Engineering Practice at Imperial’s Department of Computing, where he leads the Computing EdTech Lab, which builds open-source tools for hands-on learning. Before returning to academia he spent many years in industry as an engineer, engineering manager, consultant and trainer. His work covers software engineering education, agile development, continuous delivery and cloud-native architecture.\nKeynote (Day 1, 13:30): Teaching technologies\ndoc.ic.ac.uk/~rbc\n\n\nNicholas Del Grosso\nUniversity of Bonn\nLeads the iBOTS platform (iBehave Open Technology Support) at the University of Bonn, providing programming support, training and consulting to more than 40 neuroscience labs across Bonn, Cologne, Aachen and Jülich. He holds a PhD in neuroscience from LMU Munich and teaches scientific software development, collaborative development practice and reproducible workflows in Python.\nKeynote (Day 1, 09:40): RSE teaching structures\nnickdelgrosso.github.io"
+    "text": "RSE Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  People\n\n\n\n\n\n\n\n\nGlasgow · 26–27 November 2026\n\nKeynotes\n\n\n\n\n\nRobert Chatley\nImperial College London\nProfessor of Teaching in Software Engineering and Director of Software Engineering Practice at Imperial’s Department of Computing, where he leads the Computing EdTech Lab, which builds open-source tools for hands-on learning. Before returning to academia he spent many years in industry as an engineer, engineering manager, consultant and trainer. His work covers software engineering education, agile development, continuous delivery and cloud-native architecture.\nKeynote (Day 1, 13:30): Teaching technologies\ndoc.ic.ac.uk/~rbc\n\n\nNicholas Del Grosso\nUniversity of Bonn\nLeads the iBOTS platform (iBehave Open Technology Support) at the University of Bonn, providing programming support, training and consulting to more than 40 neuroscience labs across Bonn, Cologne, Aachen and Jülich. He holds a PhD in neuroscience from LMU Munich and teaches scientific software development, collaborative development practice and reproducible workflows in Python.\nKeynote (Day 1, 09:40): RSE teaching structures\nibots-bonn.de/team"
   },
   {
     "objectID": "index.html",
