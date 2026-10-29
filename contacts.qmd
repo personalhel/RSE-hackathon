@@ -46,12 +46,13 @@ Event Organizer\
 [Jessica.Brackenridge@glasgow.ac.uk](mailto:Jessica.Brackenridge@glasgow.ac.uk)
 :::
 
-## Charité
+## University of Bonn (iBOTS)
 
 ::: {.contact-card}
-**Magnus Hagdorn** [he/him]{.pronouns}\
-Program Chair\
-[magnus.hagdorn@charite.de](mailto:magnus.hagdorn@charite.de)
+**Ole Bialas**\
+Event Organizer\
+[bialas@uni-bonn.de](mailto:bialas@uni-bonn.de)\
+[iBOTS team](https://ibots-bonn.de/team/)
 :::
 
 ## University of Copenhagen

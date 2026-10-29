@@ -39,7 +39,7 @@ development, collaborative development practice and reproducible workflows in Py
 
 **Keynote (Day 1, 09:40):** RSE teaching structures
 
-[nickdelgrosso.github.io](https://nickdelgrosso.github.io/HelmholtzAI-TrainingSeries2025/about){target="_blank"}
+[ibots-bonn.de/team](https://ibots-bonn.de/team/){target="_blank"}
 :::
 
 :::
