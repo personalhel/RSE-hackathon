@@ -30,8 +30,7 @@ pagetitle: "Agenda · RSE Hackathon 2026"
 <tr><td>15:15–16:15</td><td>Pitches and brainstorming: collecting and clustering ideas</td></tr>
 <tr><td>16:15–17:00</td><td>Team formation</td></tr>
 <tr><td>17:00–18:00</td><td>Team activity 1: getting started and technical onboarding</td></tr>
-<tr><td>18:00–18:30</td><td>Setting up the teams in the GitHub wiki</td></tr>
-<tr><td>18:30</td><td>Dinner</td></tr>
+<tr><td>18:00</td><td>Dinner</td></tr>
 </table>
 :::
 
@@ -53,8 +52,8 @@ pagetitle: "Agenda · RSE Hackathon 2026"
 <tr><td>15:15–16:15</td><td>Team activity 3</td></tr>
 <tr class="session"><td colspan="2">Session 3: Fusion</td></tr>
 <tr><td>16:15–17:00</td><td>Team presentations</td></tr>
-<tr><td>17:00–18:00</td><td>Merging session: bringing the team repositories together</td></tr>
-<tr><td>18:00–18:30</td><td>Best Artefact Award</td></tr>
+<tr><td>17:00–17:30</td><td>Merging session: bringing the team repositories together</td></tr>
+<tr><td>17:30–18:00</td><td>Best Artefact Award</td></tr>
 </table>
 :::
 :::
