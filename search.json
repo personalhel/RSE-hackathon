@@ -4,7 +4,7 @@
     "href": "contacts.html",
     "title": "Organizers",
     "section": "",
-    "text": "RSE Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  People"
+    "text": "RSE Learning Environment Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  People"
   },
   {
     "objectID": "contacts.html#de-rse-german-informatics-society-gi",
@@ -39,7 +39,7 @@
     "href": "learning-environment.html",
     "title": "An RSE learning environment",
     "section": "",
-    "text": "RSE Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  People"
+    "text": "RSE Learning Environment Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  People"
   },
   {
     "objectID": "learning-environment.html#why-not-just-use-a-normal-learning-platform",
@@ -88,33 +88,33 @@
     "href": "keynotes.html",
     "title": "Keynotes",
     "section": "",
-    "text": "RSE Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  People\n\n\n\n\n\n\n\n\nGlasgow · 26–27 November 2026\n\nKeynotes\n\n\n\n\n\nRobert Chatley\nImperial College London\nProfessor of Teaching in Software Engineering and Director of Software Engineering Practice at Imperial’s Department of Computing, where he leads the Computing EdTech Lab, which builds open-source tools for hands-on learning. Before returning to academia he spent many years in industry as an engineer, engineering manager, consultant and trainer. His work covers software engineering education, agile development, continuous delivery and cloud-native architecture.\nKeynote (Day 1, 13:30): Teaching technologies\ndoc.ic.ac.uk/~rbc\n\n\nNicholas Del Grosso\nUniversity of Bonn\nLeads the iBOTS platform (iBehave Open Technology Support) at the University of Bonn, providing programming support, training and consulting to more than 40 neuroscience labs across Bonn, Cologne, Aachen and Jülich. He holds a PhD in neuroscience from LMU Munich and teaches scientific software development, collaborative development practice and reproducible workflows in Python.\nKeynote (Day 1, 09:40): RSE teaching structures\nibots-bonn.de/team"
+    "text": "RSE Learning Environment Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  People\n\n\n\n\n\n\n\n\nGlasgow · 26–27 November 2026\n\nKeynotes\n\n\n\n\n\nRobert Chatley\nImperial College London\nProfessor of Teaching in Software Engineering and Director of Software Engineering Practice at Imperial’s Department of Computing, where he leads the Computing EdTech Lab, which builds open-source tools for hands-on learning. Before returning to academia he spent many years in industry as an engineer, engineering manager, consultant and trainer. His work covers software engineering education, agile development, continuous delivery and cloud-native architecture.\nKeynote (Day 1, 13:30): Teaching technologies\ndoc.ic.ac.uk/~rbc\n\n\nNicholas Del Grosso\nUniversity of Bonn\nLeads the iBOTS platform (iBehave Open Technology Support) at the University of Bonn, providing programming support, training and consulting to more than 40 neuroscience labs across Bonn, Cologne, Aachen and Jülich. He holds a PhD in neuroscience from LMU Munich and teaches scientific software development, collaborative development practice and reproducible workflows in Python.\nKeynote (Day 1, 09:40): RSE teaching structures\nibots-bonn.de/team"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "RSE-hackathon",
+    "title": "RSE Learning Environment Hackathon",
     "section": "",
-    "text": "RSE Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  People"
+    "text": "RSE Learning Environment Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  People"
   },
   {
     "objectID": "index.html#who-should-come",
     "href": "index.html#who-should-come",
-    "title": "RSE-hackathon",
+    "title": "RSE Learning Environment Hackathon",
     "section": "Who should come",
     "text": "Who should come\nThis is a hackathon for code-affine people from teaching and from the RSE world. In the UK, teaching RSE is often a job description in its own right; in Germany it is usually a role people grow into. Either way, you are who we are looking for:\n\n\nActive RSEs\nResearch software engineers who build the real thing — and who pass the practice on in workshops, courses or summer schools, whether or not that part is in your job description.\n\n\nEducational technology researchers\nPeople who research, build and run learning technology — LMS integrations, standards, autograding, JupyterHub estates. You know why the last integration hurt, and what the literature says.\n\n\nLecturers with software projects\nInstructors who guide students through research-adjacent software projects: version control, code review, teams, deadlines, an artefact at the end that someone has to assess.\n\n\nAnyone teaching with notebooks or R\nTeaching with notebooks or R day to day. Your assignments are exactly the runnable artefacts today’s learning environments handle so poorly.\n\n\nYou do not need to be all four. The mix is the point: our best case for these two days is a room where the UK and German RSE communities meet the educational-technology people, and where teachers and building RSEs are represented in roughly equal measure — so that whatever we prototype is both usable in a real course and buildable beyond the hackathon."
   },
   {
     "objectID": "index.html#the-flagship-idea-an-rse-learning-environment",
     "href": "index.html#the-flagship-idea-an-rse-learning-environment",
-    "title": "RSE-hackathon",
+    "title": "RSE Learning Environment Hackathon",
     "section": "The flagship idea: an RSE learning environment",
     "text": "The flagship idea: an RSE learning environment\nRSE teaching material is plentiful and much of it is excellent. A shared environment in which learners actually work is not. Oxford RSE’s Gutenberg gets furthest — open source, with accounts, courses and progress tracking — but the loop between learners is still open everywhere: group formation, submitting an artefact, getting feedback, reviewing someone else’s code. So learners read about good practice instead of practising it on each other’s code.\n\n\nNotebooks, not pages\nTraditional learning environments (Moodle, Canvas, ILIAS) were built for self-contained documents and quizzes. None of them embeds a Jupyter or R notebook well as a first-class, runnable assignment.\n\n\nReal compute, not toy examples\nRSE assignments need the machines RSE actually runs on: GPUs, batch schedulers, HPC allocations, containers. No LMS can embed an exercise that has to be submitted to a cluster.\n\n\nOER in, OER out\nWhat learners and instructors produce should leave the platform again as open educational resources — as notebooks and as standards-described learning objects, not locked in a course shell.\n\n\n\nThe challenge for the two days\nA minimal working example of the pipeline: simple user management, group formation, a feedback loop, and peer assessment for uploaded RSE artefacts.\nWe use a thin-slice approach: rather than spending the two days building a complete database or UI, we connect just enough of each layer to show a user interacting with a real, working feature — alongside an overall system design (UML or similar) to carry the work forward.\nStandards, architecture and the open questions →\nA breakdown into modules that a single team can take on in two days, and what we think the two days can realistically produce, is on the modules page.\nOther ideas for projects and prototyping are of course more than welcome!"
   },
   {
     "objectID": "index.html#practical-information",
     "href": "index.html#practical-information",
-    "title": "RSE-hackathon",
+    "title": "RSE Learning Environment Hackathon",
     "section": "Practical information",
     "text": "Practical information\nThe hackathon takes place at University of Glasgow, Scotland on the 26th and 27th of November, 2026 at the Advanced Research Centre at University of Glasgow, 11 Chapel Lane, G11 6EW. Both days run from 09:00 to 18:00; coffee and lunch are provided.\nHybrid attendance for remote contributors is also possible.\nJoin the conversation on our Matrix room."
   },
@@ -123,14 +123,14 @@
     "href": "preparation.html",
     "title": "Preparation",
     "section": "",
-    "text": "RSE Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  People\n\n\n\n\n\n\n\n\nGlasgow · 26–27 November 2026\n\nPreparation\n\n\n\nCurious what this can look like in practice? Magnus’ screencast GitLab Learning Scripts is a nice example of hands-on, repository-based teaching, and a good warm-up if you have a few minutes before Glasgow."
+    "text": "RSE Learning Environment Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  People\n\n\n\n\n\n\n\n\nGlasgow · 26–27 November 2026\n\nPreparation\n\n\n\nCurious what this can look like in practice? Magnus’ screencast GitLab Learning Scripts is a nice example of hands-on, repository-based teaching, and a good warm-up if you have a few minutes before Glasgow."
   },
   {
     "objectID": "agenda.html",
     "href": "agenda.html",
     "title": "Agenda",
     "section": "",
-    "text": "RSE Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  People"
+    "text": "RSE Learning Environment Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  People"
   },
   {
     "objectID": "agenda.html#day-1-thursday-26-november-design",
@@ -151,7 +151,7 @@
     "href": "modules.html",
     "title": "Modules, and what two days can produce",
     "section": "",
-    "text": "RSE Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  People"
+    "text": "RSE Learning Environment Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  People"
   },
   {
     "objectID": "modules.html#the-process-model-mapped-onto-an-rse-course",
