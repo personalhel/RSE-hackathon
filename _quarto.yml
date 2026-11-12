@@ -10,7 +10,7 @@ project:
     - contacts.qmd
 
 website:
-  title: "RSE Hackathon 2026"
+  title: "RSE Learning Environment Hackathon 2026"
 
 format:
   html:
