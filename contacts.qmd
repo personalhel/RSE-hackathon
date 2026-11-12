@@ -1,5 +1,5 @@
 ---
-pagetitle: "Contacts · RSE Hackathon 2026"
+pagetitle: "Contacts · RSE Learning Environment Hackathon 2026"
 ---
 
 ::: {.hero}

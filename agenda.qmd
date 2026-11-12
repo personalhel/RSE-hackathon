@@ -1,5 +1,5 @@
 ---
-pagetitle: "Agenda · RSE Hackathon 2026"
+pagetitle: "Agenda · RSE Learning Environment Hackathon 2026"
 ---
 
 ::: {.hero}

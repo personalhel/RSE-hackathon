@@ -1,5 +1,5 @@
 ---
-pagetitle: "RSE Hackathon 2026"
+pagetitle: "RSE Learning Environment Hackathon 2026"
 ---
 
 ::: {.hero}
@@ -7,7 +7,7 @@ pagetitle: "RSE Hackathon 2026"
 ::: {.hero-top}
 [Glasgow · 26–27 November 2026]{.eyebrow}
 
-# RSE-hackathon
+# RSE Learning Environment Hackathon
 
 Two days of building an **open RSE learning environment** — and other research software engineering tools — in **Glasgow**.
 
@@ -19,8 +19,7 @@ For active RSEs, educational technology researchers, and anyone teaching with co
 ::: {.hero-body}
 Research Software Engineering (RSE) practice and training remain fragmented along disciplinary lines:
 each field reinvents tooling, conventions, and teaching material, so we will conduct an open hackathon to prototype discipline-overarching RSE frameworks
-— shared, reusable building blocks that work across the social sciences,
-life sciences, and the humanities rather than within a single silo.
+— shared, reusable building blocks that work across the sciences rather than within a single silo.
 
 ## Who should come
 

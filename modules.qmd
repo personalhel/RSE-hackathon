@@ -1,5 +1,5 @@
 ---
-pagetitle: "Modules and outputs · RSE Hackathon 2026"
+pagetitle: "Modules and outputs · RSE Learning Environment Hackathon 2026"
 ---
 
 ::: {.hero}
