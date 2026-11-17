@@ -4,7 +4,7 @@
     "href": "contacts.html",
     "title": "Organizers",
     "section": "",
-    "text": "RSE Learning Environment Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  People"
+    "text": "RSE Learning Environment Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  Getting there\n  People"
   },
   {
     "objectID": "contacts.html#de-rse-german-informatics-society-gi",
@@ -35,11 +35,109 @@
     "text": "University of Copenhagen\n\n\nHelene S. Holst she/her\nTechnical Chair, Outreach and Marketing Officer\nhel@personalhel.com\npersonalhel.com\nCodeberg · GitHub"
   },
   {
+    "objectID": "modules.html",
+    "href": "modules.html",
+    "title": "Modules, and what two days can produce",
+    "section": "",
+    "text": "RSE Learning Environment Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  Getting there\n  People"
+  },
+  {
+    "objectID": "modules.html#the-process-model-mapped-onto-an-rse-course",
+    "href": "modules.html#the-process-model-mapped-onto-an-rse-course",
+    "title": "Modules, and what two days can produce",
+    "section": "The process model, mapped onto an RSE course",
+    "text": "The process model, mapped onto an RSE course\n\n\n\n\n\n\n\n\n\n\nPhase\nIn research-based learning\nIn a project-based RSE course\nWhat software should do here\n\n\n\n\n1 · Topic finding\nFormulating a question, or choosing one inside a set frame\nChoosing the codebase, dataset, issue or method to work on\nNothing. Search engines and the instructor cover this; do not build it\n\n\n2 · Group formation\nForming the research team\nForming the dev team\nThe strongest case for software. Group formation is an optimisation problem; an algorithm solves it without bias and at course scale, either homogeneously (by shared interest or learning goal) or heterogeneously (by complementary traits)\n\n\n3 · Concept design\nA dossier: question, state of the art, method, work plan\nA design document: requirements, architecture sketch, test plan, data management, licence\nStructured annotation of the document, plus an engine that decides who reviews whom, and when, so that every team is guaranteed feedback\n\n\n4 · Execution\nCarrying out the study\nThe sprint itself\nReflection anchored in the work — a learning log tied to commits and milestones — and the execution back-end the code runs on\n\n\n5 · Presentation\nPresenting results to peers\nDemo, code walkthrough, release\nLive presentation accompanied by structured peer assessment\n\n\n6 · Write-up\nThe project report\nREADME, documentation, a software paper\nNothing. This is Word, Quarto and Overleaf territory\n\n\n(Assessment)\nPeer review, grading\nPeer code review, then a mark\nA co-assessment procedure that lets learner judgements enter the grade in a defensible way\n\n\n\n\nTwo things follow that are easy to miss. First, software is worth building in four of the seven rows, not all of them — a hackathon that starts by picking one of those four starts in the right place. Second, review sits in two different places: in research, peer review comes in the middle and gates the presentation; in teaching, grading traditionally comes at the end. An RSE course wants both, and that is precisely what makes code review teachable — the same artefact is reviewed formatively in phase 3–4 and assessed summatively at the end."
+  },
+  {
+    "objectID": "modules.html#candidate-modules-for-the-two-days",
+    "href": "modules.html#candidate-modules-for-the-two-days",
+    "title": "Modules, and what two days can produce",
+    "section": "Candidate modules for the two days",
+    "text": "Candidate modules for the two days\nEach of these is a self-contained module with an interface an environment could call. None of them requires the rest to exist first.\n\n\nM1 · Group formation\nGiven participants and their interests, topics or self-reported strengths, return teams. Two strategies, chosen by the instructor: homogeneous by shared learning goal, heterogeneous by complementary profile — plus manual override, which must always remain available. A service with one call, no UI needed, testable against synthetic cohorts of 200 in the room.\n\n\nM2 · Artefact submission\nIn RSE the submitted artefact is a repository at a commit, not an uploaded file. A module that takes a Git URL plus a ref, snapshots it, records the environment spec, and hands back a stable identifier. Small, unglamorous, and everything downstream depends on it.\n\n\nM3 · Peer code review\nThe assignment problem first — who reviews whose code, how many reviews each, ensuring nobody is left without feedback — then a review surface with comments anchored to lines and to the rubric. Forge review tools do the anchoring already; what they do not do is assign reviews pedagogically or report back to a course.\n\n\nM4 · Peer and co-assessment\nA rubric plus an aggregation procedure that combines learner marks with the instructor mark into one grade, with the weighting explicit and outliers visible. The hard part is not the interface, it is a procedure teachers will actually stand behind in an exam board.\n\n\nM5 · Reflection log\nA lightweight portfolio bound to the work: reflection prompts triggered by commits, milestones or a failed build, with tags tied to the learning goals of the course. This is where a run-of-the-mill e-portfolio becomes RSE-specific — the log knows what the repository did.\n\n\nM6 · Execution back-end\nThe piece nobody has: a defined contract for “run this learner artefact in this environment and return the result” with one reference implementation — a container runner, JupyterHub or BinderHub — and a clear statement of what it would take to put SLURM or Open OnDemand behind the same interface.\n\n\nM7 · Module descriptor\nOne YAML file describing a teaching module: learning outcomes, prerequisites, languages, required compute, licence, source repository. Effectively an RSE application profile of IEEE LOM, cut down to what is actually known and actually used, with the fields that learning technology never needed — hardware, toolchain, data.\n\n\nIf you want the shortest path to something demonstrable: M1 → M2 → M3 is one coherent thin slice of the learner loop — teams are formed, each team submits a repository, each team reviews the code of another team — and it is the half of the loop that no existing platform closes, Gutenberg included."
+  },
+  {
+    "objectID": "modules.html#what-the-hackathon-can-realistically-produce",
+    "href": "modules.html#what-the-hackathon-can-realistically-produce",
+    "title": "Modules, and what two days can produce",
+    "section": "What the hackathon can realistically produce",
+    "text": "What the hackathon can realistically produce\nTwo days, a room of people who mostly have not worked together before, and no shared codebase at the start. That rules a deployed platform out. It does not rule out artefacts that a follow-on project can be built from — and for a proposal, a well-scoped set of these is worth more than a demo.\n\n\nCertain\n\nA written requirements and landscape document: what exists, what is missing, what an RSE learning environment has to do\nA public repository with the design decisions recorded, issues filed and a roadmap\nA decision on build-on-Gutenberg versus build-new, with the reasoning written down\nA list of institutions and people willing to carry it on — the consortium for the next proposal\n\n\n\nPlausible\n\nM7 as a draft schema, with two or three real modules described in it and validated by a script\nM1 as a working service against a test cohort, since the algorithms are known and the problem is closed\nA specification of the review assignment in M3, and a prototype against mock data\n\n\n\nNot in two days\n\nA deployed, multi-tenant platform with real accounts\nAnything actually running on an HPC system, including allocations and identity\nA finished curriculum, or a complete set of modules\nA validated assessment procedure — validation takes a cohort and a semester, not a weekend\n\n\n\nThe honest framing is this: the hackathon produces a specification, a thin slice and a consortium. The specification is what makes the follow-on fundable, the thin slice is what makes it credible, and the consortium is what makes it happen."
+  },
+  {
+    "objectID": "modules.html#pick-a-module-before-you-arrive",
+    "href": "modules.html#pick-a-module-before-you-arrive",
+    "title": "Modules, and what two days can produce",
+    "section": "Pick a module before you arrive",
+    "text": "Pick a module before you arrive\nCome with one of the seven in mind — or with a good argument that the decomposition is wrong.\nRegister on Eventbrite\nOr join the Matrix room first."
+  },
+  {
+    "objectID": "agenda.html",
+    "href": "agenda.html",
+    "title": "Agenda",
+    "section": "",
+    "text": "RSE Learning Environment Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  Getting there\n  People"
+  },
+  {
+    "objectID": "agenda.html#day-1-thursday-26-november-design",
+    "href": "agenda.html#day-1-thursday-26-november-design",
+    "title": "Agenda",
+    "section": "Day 1 · Thursday, 26 November: Design",
+    "text": "Day 1 · Thursday, 26 November: Design\n\n\n\n\n09:00–09:15\n\n\nDoors open, coffee\n\n\n\n\nSession 1: What is this about?\n\n\n\n\n09:15–09:40\n\n\nWelcome: RSE teaching experiences (Julian Dehne)\n\n\n\n\n09:40–10:20\n\n\nKeynote Nicholas Del Grosso: RSE teaching structures, with Q&A\n\n\n\n\n10:20–10:30\n\n\nCoffee break\n\n\n\n\n10:30–12:00\n\n\nTutorial: how we organise our teams (git, submodules, GitHub, the repository, the wiki)\n\n\n\n\n12:00–13:30\n\n\nLunch\n\n\n\n\nSession 2: What solutions exist?\n\n\n\n\n13:30–14:30\n\n\nKeynote Robert Chatley: Teaching technologies, with Q&A\n\n\n\n\n14:30–15:00\n\n\nIndividual work on pitches (Miro board)\n\n\n\n\n15:00–15:15\n\n\nCoffee break\n\n\n\n\nSession 3: What should we try?\n\n\n\n\n15:15–16:15\n\n\nPitches and brainstorming: collecting and clustering ideas\n\n\n\n\n16:15–17:00\n\n\nTeam formation\n\n\n\n\n17:00–18:00\n\n\nTeam activity 1: getting started and technical onboarding\n\n\n\n\n18:00\n\n\nDinner"
+  },
+  {
+    "objectID": "agenda.html#day-2-friday-27-november-build",
+    "href": "agenda.html#day-2-friday-27-november-build",
+    "title": "Agenda",
+    "section": "Day 2 · Friday, 27 November: Build",
+    "text": "Day 2 · Friday, 27 November: Build\n\n\n\n\n09:00–09:15\n\n\nDoors open, coffee\n\n\n\n\nSession 1: Work session A\n\n\n\n\n09:15–09:45\n\n\nLightning talks: three demos of things we have made for RSE teaching\n\n\n\n\n09:45–10:30\n\n\nTeam activity 2 (optional)\n\n\n\n\n10:30–10:45\n\n\nCoffee break\n\n\n\n\n10:45–12:15\n\n\nTeam activity 2\n\n\n\n\n12:15–13:00\n\n\nTeam presentations; recruiting and regrouping teams\n\n\n\n\n13:00–14:00\n\n\nLunch\n\n\n\n\nSession 2: Work session B\n\n\n\n\n14:00–15:00\n\n\nTeam activity 3\n\n\n\n\n15:00–15:15\n\n\nCoffee break\n\n\n\n\n15:15–16:15\n\n\nTeam activity 3\n\n\n\n\nSession 3: Fusion\n\n\n\n\n16:15–17:00\n\n\nTeam presentations\n\n\n\n\n17:00–17:30\n\n\nMerging session: bringing the team repositories together\n\n\n\n\n17:30–18:00\n\n\nBest Artefact Award"
+  },
+  {
+    "objectID": "preparation.html",
+    "href": "preparation.html",
+    "title": "Preparation",
+    "section": "",
+    "text": "RSE Learning Environment Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  Getting there\n  People\n\n\n\n\n\n\n\n\nGlasgow · 26–27 November 2026\n\nPreparation\n\n\n\nCurious what this can look like in practice? Magnus’ screencast GitLab Learning Scripts is a nice example of hands-on, repository-based teaching, and a good warm-up if you have a few minutes before Glasgow."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "RSE Learning Environment Hackathon",
+    "section": "",
+    "text": "RSE Learning Environment Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  Getting there\n  People"
+  },
+  {
+    "objectID": "index.html#who-should-come",
+    "href": "index.html#who-should-come",
+    "title": "RSE Learning Environment Hackathon",
+    "section": "Who should come",
+    "text": "Who should come\nThis is a hackathon for code-affine people from teaching and from the RSE world. In the UK, teaching RSE is often a job description in its own right; in Germany it is usually a role people grow into. Either way, you are who we are looking for:\n\n\nActive RSEs\nResearch software engineers who build the real thing — and who pass the practice on in workshops, courses or summer schools, whether or not that part is in your job description.\n\n\nEducational technology researchers\nPeople who research, build and run learning technology — LMS integrations, standards, autograding, JupyterHub estates. You know why the last integration hurt, and what the literature says.\n\n\nLecturers with software projects\nInstructors who guide students through research-adjacent software projects: version control, code review, teams, deadlines, an artefact at the end that someone has to assess.\n\n\nAnyone teaching with notebooks or R\nTeaching with notebooks or R day to day. Your assignments are exactly the runnable artefacts today’s learning environments handle so poorly.\n\n\nYou do not need to be all four. The mix is the point: our best case for these two days is a room where the UK and German RSE communities meet the educational-technology people, and where teachers and building RSEs are represented in roughly equal measure — so that whatever we prototype is both usable in a real course and buildable beyond the hackathon."
+  },
+  {
+    "objectID": "index.html#the-flagship-idea-an-rse-learning-environment",
+    "href": "index.html#the-flagship-idea-an-rse-learning-environment",
+    "title": "RSE Learning Environment Hackathon",
+    "section": "The flagship idea: an RSE learning environment",
+    "text": "The flagship idea: an RSE learning environment\nRSE teaching material is plentiful and much of it is excellent. A shared environment in which learners actually work is not. Oxford RSE’s Gutenberg gets furthest — open source, with accounts, courses and progress tracking — but the loop between learners is still open everywhere: group formation, submitting an artefact, getting feedback, reviewing someone else’s code. So learners read about good practice instead of practising it on each other’s code.\n\n\nNotebooks, not pages\nTraditional learning environments (Moodle, Canvas, ILIAS) were built for self-contained documents and quizzes. None of them embeds a Jupyter or R notebook well as a first-class, runnable assignment.\n\n\nReal compute, not toy examples\nRSE assignments need the machines RSE actually runs on: GPUs, batch schedulers, HPC allocations, containers. No LMS can embed an exercise that has to be submitted to a cluster.\n\n\nOER in, OER out\nWhat learners and instructors produce should leave the platform again as open educational resources — as notebooks and as standards-described learning objects, not locked in a course shell.\n\n\n\nThe challenge for the two days\nA minimal working example of the pipeline: simple user management, group formation, a feedback loop, and peer assessment for uploaded RSE artefacts.\nWe use a thin-slice approach: rather than spending the two days building a complete database or UI, we connect just enough of each layer to show a user interacting with a real, working feature — alongside an overall system design (UML or similar) to carry the work forward.\nStandards, architecture and the open questions →\nA breakdown into modules that a single team can take on in two days, and what we think the two days can realistically produce, is on the modules page.\nOther ideas for projects and prototyping are of course more than welcome!"
+  },
+  {
+    "objectID": "index.html#practical-information",
+    "href": "index.html#practical-information",
+    "title": "RSE Learning Environment Hackathon",
+    "section": "Practical information",
+    "text": "Practical information\nThe hackathon takes place at University of Glasgow, Scotland on the 26th and 27th of November, 2026 at the Advanced Research Centre at University of Glasgow, 11 Chapel Lane, G11 6EW. Both days run from 09:00 to 18:00; coffee and lunch are provided.\nHow to get there: airports, trains, Subway and the walk to the ARC →\nHybrid attendance for remote contributors is also possible.\nJoin the conversation on our Matrix room."
+  },
+  {
+    "objectID": "keynotes.html",
+    "href": "keynotes.html",
+    "title": "Keynotes",
+    "section": "",
+    "text": "RSE Learning Environment Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  Getting there\n  People\n\n\n\n\n\n\n\n\nGlasgow · 26–27 November 2026\n\nKeynotes\n\n\n\n\n\nRobert Chatley\nImperial College London\nProfessor of Teaching in Software Engineering and Director of Software Engineering Practice at Imperial’s Department of Computing, where he leads the Computing EdTech Lab, which builds open-source tools for hands-on learning. Before returning to academia he spent many years in industry as an engineer, engineering manager, consultant and trainer. His work covers software engineering education, agile development, continuous delivery and cloud-native architecture.\nKeynote (Day 1, 13:30): Teaching technologies\ndoc.ic.ac.uk/~rbc\n\n\nNicholas Del Grosso\nUniversity of Bonn\nLeads the iBOTS platform (iBehave Open Technology Support) at the University of Bonn, providing programming support, training and consulting to more than 40 neuroscience labs across Bonn, Cologne, Aachen and Jülich. He holds a PhD in neuroscience from LMU Munich and teaches scientific software development, collaborative development practice and reproducible workflows in Python.\nKeynote (Day 1, 09:40): RSE teaching structures\nibots-bonn.de/team"
+  },
+  {
     "objectID": "learning-environment.html",
     "href": "learning-environment.html",
     "title": "An RSE learning environment",
     "section": "",
-    "text": "RSE Learning Environment Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  People"
+    "text": "RSE Learning Environment Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  Getting there\n  People"
   },
   {
     "objectID": "learning-environment.html#why-not-just-use-a-normal-learning-platform",
@@ -84,101 +182,31 @@
     "text": "Bring an answer — or a better question\nIf you have built one of these, surveyed one of these, or have strong opinions about any of the six, come and say so on day 1.\nRegister on Eventbrite\nOr join the Matrix room first."
   },
   {
-    "objectID": "keynotes.html",
-    "href": "keynotes.html",
-    "title": "Keynotes",
+    "objectID": "getting-there.html",
+    "href": "getting-there.html",
+    "title": "Getting there",
     "section": "",
-    "text": "RSE Learning Environment Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  People\n\n\n\n\n\n\n\n\nGlasgow · 26–27 November 2026\n\nKeynotes\n\n\n\n\n\nRobert Chatley\nImperial College London\nProfessor of Teaching in Software Engineering and Director of Software Engineering Practice at Imperial’s Department of Computing, where he leads the Computing EdTech Lab, which builds open-source tools for hands-on learning. Before returning to academia he spent many years in industry as an engineer, engineering manager, consultant and trainer. His work covers software engineering education, agile development, continuous delivery and cloud-native architecture.\nKeynote (Day 1, 13:30): Teaching technologies\ndoc.ic.ac.uk/~rbc\n\n\nNicholas Del Grosso\nUniversity of Bonn\nLeads the iBOTS platform (iBehave Open Technology Support) at the University of Bonn, providing programming support, training and consulting to more than 40 neuroscience labs across Bonn, Cologne, Aachen and Jülich. He holds a PhD in neuroscience from LMU Munich and teaches scientific software development, collaborative development practice and reproducible workflows in Python.\nKeynote (Day 1, 09:40): RSE teaching structures\nibots-bonn.de/team"
+    "text": "RSE Learning Environment Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  Getting there\n  People"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "RSE Learning Environment Hackathon",
-    "section": "",
-    "text": "RSE Learning Environment Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  People"
+    "objectID": "getting-there.html#in-short",
+    "href": "getting-there.html#in-short",
+    "title": "Getting there",
+    "section": "In short",
+    "text": "In short\n\n\nWhen\nThursday 26 and Friday 27 November. Doors open at 09:00; both days end at 18:00.\n\n\nWhere\nThe ARC is in Glasgow’s West End, on the University campus between Byres Road and Dumbarton Road. Come in through the main entrance on the square; the ground floor is step-free.\n\n\nHow\nFrom the city centre, take the Subway (Glasgow’s circular underground line) to Kelvinhall or Hillhead and walk. No car needed: there is no public parking on campus."
   },
   {
-    "objectID": "index.html#who-should-come",
-    "href": "index.html#who-should-come",
-    "title": "RSE Learning Environment Hackathon",
-    "section": "Who should come",
-    "text": "Who should come\nThis is a hackathon for code-affine people from teaching and from the RSE world. In the UK, teaching RSE is often a job description in its own right; in Germany it is usually a role people grow into. Either way, you are who we are looking for:\n\n\nActive RSEs\nResearch software engineers who build the real thing — and who pass the practice on in workshops, courses or summer schools, whether or not that part is in your job description.\n\n\nEducational technology researchers\nPeople who research, build and run learning technology — LMS integrations, standards, autograding, JupyterHub estates. You know why the last integration hurt, and what the literature says.\n\n\nLecturers with software projects\nInstructors who guide students through research-adjacent software projects: version control, code review, teams, deadlines, an artefact at the end that someone has to assess.\n\n\nAnyone teaching with notebooks or R\nTeaching with notebooks or R day to day. Your assignments are exactly the runnable artefacts today’s learning environments handle so poorly.\n\n\nYou do not need to be all four. The mix is the point: our best case for these two days is a room where the UK and German RSE communities meet the educational-technology people, and where teachers and building RSEs are represented in roughly equal measure — so that whatever we prototype is both usable in a real course and buildable beyond the hackathon."
+    "objectID": "getting-there.html#your-route-step-by-step",
+    "href": "getting-there.html#your-route-step-by-step",
+    "title": "Getting there",
+    "section": "Your route, step by step",
+    "text": "Your route, step by step\n\n1 · Into Glasgow\n\n\n\n\n\n\n\n\nArriving at\nThen\n\n\n\n\nGlasgow Airport (GLA)\nFirst Bus 77 runs directly to the West End. A taxi to the West End costs roughly £21.\n\n\nEdinburgh Airport (EDI)\nCitylink Air coach to Buchanan Bus Station in Glasgow city centre, then the Subway from Buchanan Street (step 2).\n\n\nGlasgow Queen Street (trains from Edinburgh, the north)\nWalk 2 minutes to Buchanan Street Subway station (step 2).\n\n\nGlasgow Central (trains from England, the south-west)\nWalk about 5 minutes to St Enoch Subway station (step 2).\n\n\nPartick (local trains)\nPartick is about a mile west of campus: walk 20 minutes, or take the Subway one stop to Kelvinhall.\n\n\n\n\n\n\n2 · Subway to the West End\nThe Subway is a single loop with 15 stations; trains run every few minutes, so you cannot get lost. From Buchanan Street or St Enoch, ride to Kelvinhall (via Hillhead, the shorter way round). Hillhead is one stop earlier and works just as well.\nBuses: routes 4, 4A and 15 run from the city centre through the main campus; others stop on Dumbarton Road, Great Western Road and Byres Road.\n\n\n3 · Walk to the ARC\nThe University filmed the walk from both stations. Watch it once before you set off:\n\n\n\n\n\nThe Kelvinhall Subway entrance on Dumbarton Road\n\n\nFrom Kelvinhall · about 5 minutes · watch the walk\n\n\n\n\n\nThe Hillhead Subway entrance on Byres Road\n\n\nFrom Hillhead · about 10 minutes · watch the walk\n\n\n\n\n\nView a larger map · University campus map (PDF)"
   },
   {
-    "objectID": "index.html#the-flagship-idea-an-rse-learning-environment",
-    "href": "index.html#the-flagship-idea-an-rse-learning-environment",
-    "title": "RSE Learning Environment Hackathon",
-    "section": "The flagship idea: an RSE learning environment",
-    "text": "The flagship idea: an RSE learning environment\nRSE teaching material is plentiful and much of it is excellent. A shared environment in which learners actually work is not. Oxford RSE’s Gutenberg gets furthest — open source, with accounts, courses and progress tracking — but the loop between learners is still open everywhere: group formation, submitting an artefact, getting feedback, reviewing someone else’s code. So learners read about good practice instead of practising it on each other’s code.\n\n\nNotebooks, not pages\nTraditional learning environments (Moodle, Canvas, ILIAS) were built for self-contained documents and quizzes. None of them embeds a Jupyter or R notebook well as a first-class, runnable assignment.\n\n\nReal compute, not toy examples\nRSE assignments need the machines RSE actually runs on: GPUs, batch schedulers, HPC allocations, containers. No LMS can embed an exercise that has to be submitted to a cluster.\n\n\nOER in, OER out\nWhat learners and instructors produce should leave the platform again as open educational resources — as notebooks and as standards-described learning objects, not locked in a course shell.\n\n\n\nThe challenge for the two days\nA minimal working example of the pipeline: simple user management, group formation, a feedback loop, and peer assessment for uploaded RSE artefacts.\nWe use a thin-slice approach: rather than spending the two days building a complete database or UI, we connect just enough of each layer to show a user interacting with a real, working feature — alongside an overall system design (UML or similar) to carry the work forward.\nStandards, architecture and the open questions →\nA breakdown into modules that a single team can take on in two days, and what we think the two days can realistically produce, is on the modules page.\nOther ideas for projects and prototyping are of course more than welcome!"
-  },
-  {
-    "objectID": "index.html#practical-information",
-    "href": "index.html#practical-information",
-    "title": "RSE Learning Environment Hackathon",
-    "section": "Practical information",
-    "text": "Practical information\nThe hackathon takes place at University of Glasgow, Scotland on the 26th and 27th of November, 2026 at the Advanced Research Centre at University of Glasgow, 11 Chapel Lane, G11 6EW. Both days run from 09:00 to 18:00; coffee and lunch are provided.\nHybrid attendance for remote contributors is also possible.\nJoin the conversation on our Matrix room."
-  },
-  {
-    "objectID": "preparation.html",
-    "href": "preparation.html",
-    "title": "Preparation",
-    "section": "",
-    "text": "RSE Learning Environment Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  People\n\n\n\n\n\n\n\n\nGlasgow · 26–27 November 2026\n\nPreparation\n\n\n\nCurious what this can look like in practice? Magnus’ screencast GitLab Learning Scripts is a nice example of hands-on, repository-based teaching, and a good warm-up if you have a few minutes before Glasgow."
-  },
-  {
-    "objectID": "agenda.html",
-    "href": "agenda.html",
-    "title": "Agenda",
-    "section": "",
-    "text": "RSE Learning Environment Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  People"
-  },
-  {
-    "objectID": "agenda.html#day-1-thursday-26-november-design",
-    "href": "agenda.html#day-1-thursday-26-november-design",
-    "title": "Agenda",
-    "section": "Day 1 · Thursday, 26 November: Design",
-    "text": "Day 1 · Thursday, 26 November: Design\n\n\n\n\n09:00–09:15\n\n\nDoors open, coffee\n\n\n\n\nSession 1: What is this about?\n\n\n\n\n09:15–09:40\n\n\nWelcome: RSE teaching experiences (Julian Dehne)\n\n\n\n\n09:40–10:20\n\n\nKeynote Nicholas Del Grosso: RSE teaching structures, with Q&A\n\n\n\n\n10:20–10:30\n\n\nCoffee break\n\n\n\n\n10:30–12:00\n\n\nTutorial: how we organise our teams (git, submodules, GitHub, the repository, the wiki)\n\n\n\n\n12:00–13:30\n\n\nLunch\n\n\n\n\nSession 2: What solutions exist?\n\n\n\n\n13:30–14:30\n\n\nKeynote Robert Chatley: Teaching technologies, with Q&A\n\n\n\n\n14:30–15:00\n\n\nIndividual work on pitches (Miro board)\n\n\n\n\n15:00–15:15\n\n\nCoffee break\n\n\n\n\nSession 3: What should we try?\n\n\n\n\n15:15–16:15\n\n\nPitches and brainstorming: collecting and clustering ideas\n\n\n\n\n16:15–17:00\n\n\nTeam formation\n\n\n\n\n17:00–18:00\n\n\nTeam activity 1: getting started and technical onboarding\n\n\n\n\n18:00\n\n\nDinner"
-  },
-  {
-    "objectID": "agenda.html#day-2-friday-27-november-build",
-    "href": "agenda.html#day-2-friday-27-november-build",
-    "title": "Agenda",
-    "section": "Day 2 · Friday, 27 November: Build",
-    "text": "Day 2 · Friday, 27 November: Build\n\n\n\n\n09:00–09:15\n\n\nDoors open, coffee\n\n\n\n\nSession 1: Work session A\n\n\n\n\n09:15–09:45\n\n\nLightning talks: three demos of things we have made for RSE teaching\n\n\n\n\n09:45–10:30\n\n\nTeam activity 2 (optional)\n\n\n\n\n10:30–10:45\n\n\nCoffee break\n\n\n\n\n10:45–12:15\n\n\nTeam activity 2\n\n\n\n\n12:15–13:00\n\n\nTeam presentations; recruiting and regrouping teams\n\n\n\n\n13:00–14:00\n\n\nLunch\n\n\n\n\nSession 2: Work session B\n\n\n\n\n14:00–15:00\n\n\nTeam activity 3\n\n\n\n\n15:00–15:15\n\n\nCoffee break\n\n\n\n\n15:15–16:15\n\n\nTeam activity 3\n\n\n\n\nSession 3: Fusion\n\n\n\n\n16:15–17:00\n\n\nTeam presentations\n\n\n\n\n17:00–17:30\n\n\nMerging session: bringing the team repositories together\n\n\n\n\n17:30–18:00\n\n\nBest Artefact Award"
-  },
-  {
-    "objectID": "modules.html",
-    "href": "modules.html",
-    "title": "Modules, and what two days can produce",
-    "section": "",
-    "text": "RSE Learning Environment Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  People"
-  },
-  {
-    "objectID": "modules.html#the-process-model-mapped-onto-an-rse-course",
-    "href": "modules.html#the-process-model-mapped-onto-an-rse-course",
-    "title": "Modules, and what two days can produce",
-    "section": "The process model, mapped onto an RSE course",
-    "text": "The process model, mapped onto an RSE course\n\n\n\n\n\n\n\n\n\n\nPhase\nIn research-based learning\nIn a project-based RSE course\nWhat software should do here\n\n\n\n\n1 · Topic finding\nFormulating a question, or choosing one inside a set frame\nChoosing the codebase, dataset, issue or method to work on\nNothing. Search engines and the instructor cover this; do not build it\n\n\n2 · Group formation\nForming the research team\nForming the dev team\nThe strongest case for software. Group formation is an optimisation problem; an algorithm solves it without bias and at course scale, either homogeneously (by shared interest or learning goal) or heterogeneously (by complementary traits)\n\n\n3 · Concept design\nA dossier: question, state of the art, method, work plan\nA design document: requirements, architecture sketch, test plan, data management, licence\nStructured annotation of the document, plus an engine that decides who reviews whom, and when, so that every team is guaranteed feedback\n\n\n4 · Execution\nCarrying out the study\nThe sprint itself\nReflection anchored in the work — a learning log tied to commits and milestones — and the execution back-end the code runs on\n\n\n5 · Presentation\nPresenting results to peers\nDemo, code walkthrough, release\nLive presentation accompanied by structured peer assessment\n\n\n6 · Write-up\nThe project report\nREADME, documentation, a software paper\nNothing. This is Word, Quarto and Overleaf territory\n\n\n(Assessment)\nPeer review, grading\nPeer code review, then a mark\nA co-assessment procedure that lets learner judgements enter the grade in a defensible way\n\n\n\n\nTwo things follow that are easy to miss. First, software is worth building in four of the seven rows, not all of them — a hackathon that starts by picking one of those four starts in the right place. Second, review sits in two different places: in research, peer review comes in the middle and gates the presentation; in teaching, grading traditionally comes at the end. An RSE course wants both, and that is precisely what makes code review teachable — the same artefact is reviewed formatively in phase 3–4 and assessed summatively at the end."
-  },
-  {
-    "objectID": "modules.html#candidate-modules-for-the-two-days",
-    "href": "modules.html#candidate-modules-for-the-two-days",
-    "title": "Modules, and what two days can produce",
-    "section": "Candidate modules for the two days",
-    "text": "Candidate modules for the two days\nEach of these is a self-contained module with an interface an environment could call. None of them requires the rest to exist first.\n\n\nM1 · Group formation\nGiven participants and their interests, topics or self-reported strengths, return teams. Two strategies, chosen by the instructor: homogeneous by shared learning goal, heterogeneous by complementary profile — plus manual override, which must always remain available. A service with one call, no UI needed, testable against synthetic cohorts of 200 in the room.\n\n\nM2 · Artefact submission\nIn RSE the submitted artefact is a repository at a commit, not an uploaded file. A module that takes a Git URL plus a ref, snapshots it, records the environment spec, and hands back a stable identifier. Small, unglamorous, and everything downstream depends on it.\n\n\nM3 · Peer code review\nThe assignment problem first — who reviews whose code, how many reviews each, ensuring nobody is left without feedback — then a review surface with comments anchored to lines and to the rubric. Forge review tools do the anchoring already; what they do not do is assign reviews pedagogically or report back to a course.\n\n\nM4 · Peer and co-assessment\nA rubric plus an aggregation procedure that combines learner marks with the instructor mark into one grade, with the weighting explicit and outliers visible. The hard part is not the interface, it is a procedure teachers will actually stand behind in an exam board.\n\n\nM5 · Reflection log\nA lightweight portfolio bound to the work: reflection prompts triggered by commits, milestones or a failed build, with tags tied to the learning goals of the course. This is where a run-of-the-mill e-portfolio becomes RSE-specific — the log knows what the repository did.\n\n\nM6 · Execution back-end\nThe piece nobody has: a defined contract for “run this learner artefact in this environment and return the result” with one reference implementation — a container runner, JupyterHub or BinderHub — and a clear statement of what it would take to put SLURM or Open OnDemand behind the same interface.\n\n\nM7 · Module descriptor\nOne YAML file describing a teaching module: learning outcomes, prerequisites, languages, required compute, licence, source repository. Effectively an RSE application profile of IEEE LOM, cut down to what is actually known and actually used, with the fields that learning technology never needed — hardware, toolchain, data.\n\n\nIf you want the shortest path to something demonstrable: M1 → M2 → M3 is one coherent thin slice of the learner loop — teams are formed, each team submits a repository, each team reviews the code of another team — and it is the half of the loop that no existing platform closes, Gutenberg included."
-  },
-  {
-    "objectID": "modules.html#what-the-hackathon-can-realistically-produce",
-    "href": "modules.html#what-the-hackathon-can-realistically-produce",
-    "title": "Modules, and what two days can produce",
-    "section": "What the hackathon can realistically produce",
-    "text": "What the hackathon can realistically produce\nTwo days, a room of people who mostly have not worked together before, and no shared codebase at the start. That rules a deployed platform out. It does not rule out artefacts that a follow-on project can be built from — and for a proposal, a well-scoped set of these is worth more than a demo.\n\n\nCertain\n\nA written requirements and landscape document: what exists, what is missing, what an RSE learning environment has to do\nA public repository with the design decisions recorded, issues filed and a roadmap\nA decision on build-on-Gutenberg versus build-new, with the reasoning written down\nA list of institutions and people willing to carry it on — the consortium for the next proposal\n\n\n\nPlausible\n\nM7 as a draft schema, with two or three real modules described in it and validated by a script\nM1 as a working service against a test cohort, since the algorithms are known and the problem is closed\nA specification of the review assignment in M3, and a prototype against mock data\n\n\n\nNot in two days\n\nA deployed, multi-tenant platform with real accounts\nAnything actually running on an HPC system, including allocations and identity\nA finished curriculum, or a complete set of modules\nA validated assessment procedure — validation takes a cohort and a semester, not a weekend\n\n\n\nThe honest framing is this: the hackathon produces a specification, a thin slice and a consortium. The specification is what makes the follow-on fundable, the thin slice is what makes it credible, and the consortium is what makes it happen."
-  },
-  {
-    "objectID": "modules.html#pick-a-module-before-you-arrive",
-    "href": "modules.html#pick-a-module-before-you-arrive",
-    "title": "Modules, and what two days can produce",
-    "section": "Pick a module before you arrive",
-    "text": "Pick a module before you arrive\nCome with one of the seven in mind — or with a good argument that the decomposition is wrong.\nRegister on Eventbrite\nOr join the Matrix room first."
+    "objectID": "getting-there.html#good-to-know",
+    "href": "getting-there.html#good-to-know",
+    "title": "Getting there",
+    "section": "Good to know",
+    "text": "Good to know\n\nLate November in Glasgow is dark by about 4 pm and often wet. Bring a rain jacket.\nArriving by car: campus parking is for permit holders only. The Subway’s Park & Ride at Kelvinbridge costs around £5 and is a short ride (or a walk) away.\nCycling: a cycle route connects the city centre with the University.\nAccessibility: the ground floor (Level 2) has step-free access, induction loops and a Changing Places toilet on Level 1. The nearest Blue Badge bay is on University Place; drop-offs can be arranged via arc-enquiries@glasgow.ac.uk.\nLost on the day? Ask in the Matrix room, or contact the organisers. ARC reception: +44 141 330 4170.\n\nTravel details are taken from the University of Glasgow’s ARC contact and how to get here pages; check SPT for current Subway times."
   }
 ]
