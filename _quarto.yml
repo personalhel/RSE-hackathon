@@ -7,6 +7,7 @@ project:
     - agenda.qmd
     - learning-environment.qmd
     - modules.qmd
+    - getting-there.qmd
     - contacts.qmd
 
 website:
