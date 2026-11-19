@@ -17,6 +17,9 @@ For active RSEs, educational technology researchers, and anyone teaching with co
 :::
 
 ::: {.hero-body}
+
+![The ARC, the hackathon venue at the University of Glasgow. Photo: University of Glasgow.](venue/arc-exterior.jpg){.venue-photo fig-alt="The ARC, a curved glass-and-white building, against a clear blue sky"}
+
 Research Software Engineering (RSE) practice and training remain fragmented along disciplinary lines:
 each field reinvents tooling, conventions, and teaching material, so we will conduct an open hackathon to prototype discipline-overarching RSE frameworks
 — shared, reusable building blocks that work across the sciences rather than within a single silo.
@@ -107,8 +110,6 @@ can realistically produce, is on the [modules page](modules.html).
 Other ideas for projects and prototyping are of course more than welcome!
 
 ## Practical information
-
-![The Advanced Research Centre (ARC), our venue. Photo: University of Glasgow.](venue/arc-exterior.jpg){.venue-photo fig-alt="The ARC, a curved glass-and-white building, against a clear blue sky"}
 
 The hackathon takes place at [University of Glasgow, Scotland]{.highlight} on the 26th and 27th of November, 2026 at the [Advanced Research Centre]{.highlight}
 at _University of Glasgow, 11 Chapel Lane, G11 6EW_. Both days run from 09:00 to 18:00; coffee and lunch are provided.
