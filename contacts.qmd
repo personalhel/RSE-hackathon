@@ -1,5 +1,5 @@
 ---
-pagetitle: "Contacts · RSE Learning Environment Hackathon 2026"
+pagetitle: "Contact · RSE Learning Environment Hackathon 2026"
 ---
 
 ::: {.hero}
@@ -7,10 +7,16 @@ pagetitle: "Contacts · RSE Learning Environment Hackathon 2026"
 ::: {.hero-top}
 [← Back to RSE-hackathon](index.html){.back-link}
 
-# Organizers
+# Contact
 :::
 
 ::: {.hero-body}
+::: {.contact-card}
+**Questions about the hackathon?** Write to us:\
+RSE team at GI: [rse@gi.de](mailto:rse@gi.de)\
+Julian Dehne: [julian.dehne@gi.de](mailto:julian.dehne@gi.de)
+:::
+
 ## de-RSE & German Informatics Society (GI)
 
 ::: {.contact-card .has-photo}
