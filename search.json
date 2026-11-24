@@ -4,7 +4,7 @@
     "href": "contacts.html",
     "title": "Contact",
     "section": "",
-    "text": "RSE Learning Environment Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  Getting there\n  Contact"
+    "text": "RSE Learning Environment Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  Getting there\n  FAQ\n  Contact"
   },
   {
     "objectID": "contacts.html#de-rse-german-informatics-society-gi",
@@ -39,7 +39,7 @@
     "href": "modules.html",
     "title": "Modules, and what two days can produce",
     "section": "",
-    "text": "RSE Learning Environment Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  Getting there\n  Contact"
+    "text": "RSE Learning Environment Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  Getting there\n  FAQ\n  Contact"
   },
   {
     "objectID": "modules.html#the-process-model-mapped-onto-an-rse-course",
@@ -74,7 +74,7 @@
     "href": "agenda.html",
     "title": "Agenda",
     "section": "",
-    "text": "RSE Learning Environment Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  Getting there\n  Contact"
+    "text": "RSE Learning Environment Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  Getting there\n  FAQ\n  Contact"
   },
   {
     "objectID": "agenda.html#day-1-thursday-26-november-design",
@@ -95,14 +95,14 @@
     "href": "preparation.html",
     "title": "Preparation",
     "section": "",
-    "text": "RSE Learning Environment Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  Getting there\n  Contact\n\n\n\n\n\n\n\n\nGlasgow · 26–27 November 2026\n\nPreparation\n\n\n\nCurious what this can look like in practice? Magnus’ screencast GitLab Learning Scripts is a nice example of hands-on, repository-based teaching, and a good warm-up if you have a few minutes before Glasgow."
+    "text": "RSE Learning Environment Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  Getting there\n  FAQ\n  Contact\n\n\n\n\n\n\n\n\nGlasgow · 26–27 November 2026\n\nPreparation\n\n\n\nBefore you arrive, please read the Glasgow Hackathon FAQ in our GitHub work repository, rse_learning_environment.\nCurious what this can look like in practice? Magnus’ screencast GitLab Learning Scripts is a nice example of hands-on, repository-based teaching, and a good warm-up if you have a few minutes before Glasgow."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "RSE Learning Environment Hackathon",
     "section": "",
-    "text": "RSE Learning Environment Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  Getting there\n  Contact"
+    "text": "RSE Learning Environment Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  Getting there\n  FAQ\n  Contact"
   },
   {
     "objectID": "index.html#who-should-come",
@@ -123,21 +123,21 @@
     "href": "index.html#practical-information",
     "title": "RSE Learning Environment Hackathon",
     "section": "Practical information",
-    "text": "Practical information\nThe hackathon takes place at University of Glasgow, Scotland on the 26th and 27th of November, 2026 at the Advanced Research Centre at University of Glasgow, 11 Chapel Lane, G11 6EW. Both days run from 09:00 to 18:00; coffee and lunch are provided.\nHow to get there: airports, trains, Subway and the walk to the ARC →\nHybrid attendance for remote contributors is also possible.\nJoin the conversation on our Matrix room."
+    "text": "Practical information\nThe hackathon takes place at University of Glasgow, Scotland on the 26th and 27th of November, 2026 at the Advanced Research Centre at University of Glasgow, 11 Chapel Lane, G11 6EW. Both days run from 09:00 to 18:00; coffee and lunch are provided.\nHow to get there: airports, trains, Subway and the walk to the ARC →\nHybrid attendance for remote contributors is also possible.\nJoin the conversation on our Matrix room.\nHave a question? Check the Glasgow Hackathon FAQ in our GitHub work repository."
   },
   {
     "objectID": "keynotes.html",
     "href": "keynotes.html",
     "title": "Keynotes",
     "section": "",
-    "text": "RSE Learning Environment Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  Getting there\n  Contact\n\n\n\n\n\n\n\n\nGlasgow · 26–27 November 2026\n\nKeynotes\n\n\n\n\n\nRobert Chatley\nImperial College London\nProfessor of Teaching in Software Engineering and Director of Software Engineering Practice at Imperial’s Department of Computing, where he leads the Computing EdTech Lab, which builds open-source tools for hands-on learning. Before returning to academia he spent many years in industry as an engineer, engineering manager, consultant and trainer. His work covers software engineering education, agile development, continuous delivery and cloud-native architecture.\nKeynote (Day 1, 13:30): Teaching technologies\ndoc.ic.ac.uk/~rbc\n\n\nNicholas Del Grosso\nUniversity of Bonn\nLeads the iBOTS platform (iBehave Open Technology Support) at the University of Bonn, providing programming support, training and consulting to more than 40 neuroscience labs across Bonn, Cologne, Aachen and Jülich. He holds a PhD in neuroscience from LMU Munich and teaches scientific software development, collaborative development practice and reproducible workflows in Python.\nKeynote (Day 1, 09:40): RSE teaching structures\nibots-bonn.de/team"
+    "text": "RSE Learning Environment Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  Getting there\n  FAQ\n  Contact\n\n\n\n\n\n\n\n\nGlasgow · 26–27 November 2026\n\nKeynotes\n\n\n\n\n\nRobert Chatley\nImperial College London\nProfessor of Teaching in Software Engineering and Director of Software Engineering Practice at Imperial’s Department of Computing, where he leads the Computing EdTech Lab, which builds open-source tools for hands-on learning. Before returning to academia he spent many years in industry as an engineer, engineering manager, consultant and trainer. His work covers software engineering education, agile development, continuous delivery and cloud-native architecture.\nKeynote (Day 1, 13:30): Teaching technologies\ndoc.ic.ac.uk/~rbc\n\n\nNicholas Del Grosso\nUniversity of Bonn\nLeads the iBOTS platform (iBehave Open Technology Support) at the University of Bonn, providing programming support, training and consulting to more than 40 neuroscience labs across Bonn, Cologne, Aachen and Jülich. He holds a PhD in neuroscience from LMU Munich and teaches scientific software development, collaborative development practice and reproducible workflows in Python.\nKeynote (Day 1, 09:40): RSE teaching structures\nibots-bonn.de/team"
   },
   {
     "objectID": "learning-environment.html",
     "href": "learning-environment.html",
     "title": "An RSE learning environment",
     "section": "",
-    "text": "RSE Learning Environment Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  Getting there\n  Contact"
+    "text": "RSE Learning Environment Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  Getting there\n  FAQ\n  Contact"
   },
   {
     "objectID": "learning-environment.html#why-not-just-use-a-normal-learning-platform",
@@ -186,7 +186,7 @@
     "href": "getting-there.html",
     "title": "Getting there",
     "section": "",
-    "text": "RSE Learning Environment Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  Getting there\n  Contact"
+    "text": "RSE Learning Environment Hackathon 2026\n  Overview\n  Preparation\n  Keynotes\n  Agenda\n  Learning environment\n  Modules\n  Getting there\n  FAQ\n  Contact"
   },
   {
     "objectID": "getting-there.html#in-short",
