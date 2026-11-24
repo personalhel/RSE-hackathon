@@ -13,7 +13,7 @@ Two days of building an **open RSE learning environment** — and other research
 
 For active RSEs, educational technology researchers, and anyone teaching with code — on site or hybrid.
 
-[Register on Eventbrite](https://www.eventbrite.com/e/rse-hackathon-2026-at-university-of-glasgow-tickets-2000034040655){.cta target="_blank"}
+[Register now](https://uni-bonn.zoom-x.de/meeting/register/XrfyBhd4SVaFdYomJXwidg){.cta target="_blank"}
 :::
 
 ::: {.hero-body}

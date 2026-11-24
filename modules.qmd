@@ -155,7 +155,7 @@ credible, and the consortium is what makes it happen.
 
 Come with one of the seven in mind — or with a good argument that the decomposition is wrong.
 
-[Register on Eventbrite](https://www.eventbrite.com/e/rse-hackathon-2026-at-university-of-glasgow-tickets-2000034040655){.cta target="_blank"}
+[Register now](https://uni-bonn.zoom-x.de/meeting/register/XrfyBhd4SVaFdYomJXwidg){.cta target="_blank"}
 
 Or join the [Matrix room](https://matrix.to/#/#rse-hackathon-glasgow-:matrix.org) first.
 :::
