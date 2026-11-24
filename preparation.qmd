@@ -11,6 +11,9 @@ pagetitle: "Preparation · RSE Learning Environment Hackathon 2026"
 :::
 
 ::: {.hero-body}
+Before you arrive, please read the [Glasgow Hackathon FAQ](https://github.com/juliandehne/rse_learning_environment/wiki/Glasgow-Hackathon-FAQ){target="_blank"}
+in our GitHub work repository, [rse_learning_environment](https://github.com/juliandehne/rse_learning_environment){target="_blank"}.
+
 Curious what this can look like in practice? Magnus' screencast [GitLab Learning Scripts]{.highlight}
 is a nice example of hands-on, repository-based teaching, and a good warm-up if you have a few minutes
 before Glasgow.
