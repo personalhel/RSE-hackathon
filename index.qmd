@@ -14,6 +14,8 @@ Two days of building an **open RSE learning environment** — and other research
 For active RSEs, educational technology researchers, and anyone teaching with code — on site or hybrid.
 
 [Register now](https://uni-bonn.zoom-x.de/meeting/register/XrfyBhd4SVaFdYomJXwidg){.cta target="_blank"}
+
+This registration gives you the Zoom access for the hybrid event. Please register even if you attend in person.
 :::
 
 ::: {.hero-body}

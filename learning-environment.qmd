@@ -167,6 +167,8 @@ come and say so on day 1.
 
 [Register now](https://uni-bonn.zoom-x.de/meeting/register/XrfyBhd4SVaFdYomJXwidg){.cta target="_blank"}
 
+This registration gives you the Zoom access for the hybrid event. Please register even if you attend in person.
+
 Or join the [Matrix room](https://matrix.to/#/#rse-hackathon-glasgow-:matrix.org) first.
 :::
 
