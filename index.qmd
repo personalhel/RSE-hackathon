@@ -119,6 +119,8 @@ at _University of Glasgow, 11 Chapel Lane, G11 6EW_. Both days run from 09:00 to
 Hybrid attendance for remote contributors is also possible.
 
 Join the conversation on our [Matrix room](https://matrix.to/#/#rse-hackathon-glasgow-:matrix.org).
+
+Have a question? Check the [Glasgow Hackathon FAQ](https://github.com/juliandehne/rse_learning_environment/wiki/Glasgow-Hackathon-FAQ){target="_blank"} in our GitHub work repository.
 :::
 
 The best artefact of the two days receives the Best Artefact Award.
